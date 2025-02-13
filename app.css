@@ -92,11 +92,32 @@
   cursor: pointer;
 }
 
+
 .filter-input.active, 
 .district-button.active,
 .sort-button.active {
   border-color: var(--primary-blue);
   background-color: var(--secondary-blue);
+}
+
+.apply-button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  background: var(--primary-blue);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.apply-button:hover {
+  background: #0052cc;
+  transform: translateY(-2px);
+}
+
+.apply-button:active {
+  transform: translateY(0);
 }
 
 .view-mode-selector {
@@ -164,7 +185,7 @@
   margin-top: 0.5rem;
   padding: 0.5rem;
   box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
-  z-index: 30; /* Increased z-index */
+  z-index: 2000; /* Much higher z-index to ensure it's above everything */
   min-width: 200px;
 }
 
@@ -268,8 +289,9 @@
 
 .specs-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: 60px 60px 85px 85px; /* Adjusted widths for each column */
+  gap: 1rem;
+  padding: 0.5rem;
 }
 
 .spec-item {
@@ -289,7 +311,7 @@
 }
 
 .property-price {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--text-primary);
   text-align: right;

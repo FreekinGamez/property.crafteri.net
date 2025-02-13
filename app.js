@@ -38,16 +38,17 @@ const PropertyCard = ({ property }) => {
             React.createElement('span', { className: 'material-icons' }, 'bathtub'),
             React.createElement('span', { className: 'spec-value' }, property.baths)
           ),
-          React.createElement('div', { className: 'spec-item' },
+          property.int_m2 && React.createElement('div', { className: 'spec-item' },
             React.createElement('span', { className: 'material-icons' }, 'square_foot'),
-            React.createElement('span', { className: 'spec-value' }, property.int_m2)
+            React.createElement('span', { className: 'spec-value' }, `${property.int_m2}m²`)
           ),
           property.ext_m2 && React.createElement('div', { className: 'spec-item' },
             React.createElement('span', { className: 'material-icons' }, 'nature'),
-            React.createElement('span', { className: 'spec-value' }, property.ext_m2)
+            React.createElement('span', { className: 'spec-value' }, `${property.ext_m2}m²`)
           )
         )
-      ),
+      )
+      ,
       React.createElement('div', { className: 'property-price' },
         `£${parseInt(property.price).toLocaleString()}`
       )
@@ -240,12 +241,14 @@ const handleCopy = () => {
 
   const filteredProperties = properties.filter(property => {
     const price = parseFloat(property.price) || 0;
+    const beds = parseInt(property.beds) || 0;
     return (
       (selectedDistricts.length === 0 || selectedDistricts.includes(property.district)) &&
       (!filters.minPrice || price >= parseFloat(filters.minPrice)) &&
       (!filters.maxPrice || price <= parseFloat(filters.maxPrice)) &&
       (!filters.minROI || parseFloat(property.roi) >= parseFloat(filters.minROI)) &&
-      (filters.beds === 'all' || property.beds >= parseInt(filters.beds))
+      (filters.beds === 'all' || 
+       (filters.beds === '4' ? beds >= 4 : beds === parseInt(filters.beds)))
     );
   });
 
@@ -297,9 +300,11 @@ const handleCopy = () => {
           value: filters.beds
         },
           React.createElement('option', { value: 'all' }, 'All Beds'),
-          React.createElement('option', { value: '1' }, '1+ Beds'),
-          React.createElement('option', { value: '2' }, '2+ Beds'),
-          React.createElement('option', { value: '3' }, '3+ Beds')
+          React.createElement('option', { value: '0' }, '0 Beds'),
+          React.createElement('option', { value: '1' }, '1 Bed'),
+          React.createElement('option', { value: '2' }, '2 Beds'),
+          React.createElement('option', { value: '3' }, '3 Beds'),
+          React.createElement('option', { value: '4' }, '4+ Beds')
         ),
         React.createElement(SortButton, {
           onSortChange: (field, ascending) => setSortConfig({ field, ascending }),
