@@ -1,0 +1,22 @@
+import React from 'https://esm.sh/react';
+
+export const Header = () => {
+  return React.createElement('header', { className: 'hero' },
+    React.createElement('div', { className: 'hero-content' },
+      React.createElement('h1', null, 'Gibraltar Property Investment'),
+      React.createElement('p', null, 'Discover High-ROI Properties in Gibraltar')
+    )
+  );
+};
+
+export const Footer = () => {
+  return React.createElement('footer', { className: 'footer' },
+    React.createElement('div', { className: 'footer-content' },
+      React.createElement('p', null, '© 2025 Crafteri Industries. All Rights Reserved.'),
+      React.createElement('p', null,
+        'Need help? Contact us at ',
+        React.createElement('a', { href: 'mailto:info@crafteri.net' }, 'info@crafteri.net')
+      )
+    )
+  );
+};

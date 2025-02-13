@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coming Soon – Redesigned</title>
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Varela Round', sans-serif;
+      background: #f8f9ff;
+      overflow: hidden;
+      color: #333;
+      position: relative;
+      min-height: 100vh;
+      min-width: 100vw;
+    }
+
+    .container {
+      position: relative;
+      z-index: 3;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 4rem;
+      color: #2B7FFF;
+      margin-bottom: 1rem;
+    }
+    
+    p.sub {
+      font-size: 1.8rem;
+      color: #2B7FFF;
+    }
+
+    .footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      padding: 15px 0;
+      background: rgba(255,255,255,0.9);
+      border-top: 1px solid #eaeaea;
+      text-align: center;
+      font-size: 0.9rem;
+      z-index: 3;
+    }
+
+    .shape {
+      position: absolute;
+      pointer-events: none;
+      z-index: 1;
+      background: #2B7FFF;
+      border: 2px solid white;
+      display: block;
+    }
+
+    .shape.outer {
+      z-index: 1;
+    }
+
+    .shape.inner {
+      z-index: 2;
+      opacity: 0.7;
+    }
+
+    @keyframes morphOuter1 {
+      0% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+      50% { border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; }
+      100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+    }
+
+    @keyframes morphOuter2 {
+      0% { border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%; }
+      50% { border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%; }
+      100% { border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%; }
+    }
+
+    @keyframes morphOuter3 {
+      0% { border-radius: 50% 50% 20% 80% / 25% 80% 20% 75%; }
+      50% { border-radius: 70% 30% 75% 25% / 50% 50% 50% 50%; }
+      100% { border-radius: 50% 50% 20% 80% / 25% 80% 20% 75%; }
+    }
+
+    @keyframes morphInner1 {
+      0% { border-radius: 55% 45% 35% 65% / 55% 35% 65% 45%; }
+      50% { border-radius: 35% 55% 65% 45% / 45% 55% 35% 55%; }
+      100% { border-radius: 55% 45% 35% 65% / 55% 35% 65% 45%; }
+    }
+
+    @keyframes morphInner2 {
+      0% { border-radius: 45% 55% 65% 35% / 45% 45% 55% 45%; }
+      50% { border-radius: 65% 35% 45% 55% / 35% 35% 65% 65%; }
+      100% { border-radius: 45% 55% 65% 35% / 45% 45% 55% 45%; }
+    }
+
+    @keyframes morphInner3 {
+      0% { border-radius: 45% 45% 25% 75% / 30% 75% 25% 70%; }
+      50% { border-radius: 65% 35% 70% 30% / 45% 45% 45% 45%; }
+      100% { border-radius: 45% 45% 25% 75% / 30% 75% 25% 70%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Coming Soon</h1>
+    <p class="sub">Our new website is under construction.</p>
+  </div>
+
+  <div class="footer">
+    Crafteri Industries. All Rights Reserved.
+  </div>
+
+  <script>
+    class ShapePair {
+      constructor(index) {
+        this.createShapes(index);
+      }
+
+      createShapes(index) {
+        // Create outer shape
+        const outer = document.createElement('div');
+        outer.className = 'shape outer';
+        
+        // Create inner shape
+        const inner = document.createElement('div');
+        inner.className = 'shape inner';
+
+        // Set sizes based on position
+        let size;
+        let x, y;
+
+        // Define positions and sizes for each pair
+        const positions = [
+  { size: 500, x: '75%', y: '0%' },     // Top right (bigger and more corner-positioned)
+  { size: 300, x: '10%', y: '20%' },    // Top left
+  { size: 250, x: '20%', y: '70%' },    // Bottom left
+  { size: 350, x: '60%', y: '60%' },    // Bottom right
+  { size: 200, x: '40%', y: '15%' },    // Middle (moved higher up)
+  { size: 280, x: '80%', y: '70%' }     // Bottom right corner
+];
+        const pos = positions[index % positions.length];
+        size = pos.size;
+        x = pos.x;
+        y = pos.y;
+
+        // Style outer shape
+        outer.style.width = `${size}px`;
+        outer.style.height = `${size}px`;
+        outer.style.left = x;
+        outer.style.top = y;
+        outer.style.animation = `morphOuter${(index % 3) + 1} ${8 + index}s ease-in-out infinite`;
+
+        // Style inner shape (slightly smaller)
+        inner.style.width = `${size - 20}px`;
+        inner.style.height = `${size - 20}px`;
+        inner.style.left = `calc(${x} + 10px)`;
+        inner.style.top = `calc(${y} + 10px)`;
+        inner.style.animation = `morphInner${(index % 3) + 1} ${7 + index}s ease-in-out infinite`;
+
+        document.body.appendChild(outer);
+        document.body.appendChild(inner);
+      }
+    }
+
+    // Create 6 pairs of shapes
+    for (let i = 0; i < 6; i++) {
+      new ShapePair(i);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YFJ64K6YL7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-YFJ64K6YL7');
+    </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta property="og:title" content="Easyupload.io - Upload Files and Share Them Easily" />
+  <meta property="og:image" content="https://easyupload.io/img/logo-new.png" />
+  <meta property="og:site_name" content="Easyupload" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://easyupload.io" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@easyupload_io" />
+    <meta name="twitter:title" content="Download: Crafteri 1.png" />
+    <meta name="twitter:description" content="High-Speed Downloads & Uploads" />
+  <meta name="twitter:image" content="https://easyupload.io/img/logo_main.png" />
+  <meta name="description" content="Uplaod files easily and share them with your friends and colleagues. File upload solution for everyone. Upload big files and get a link to share effortlesly." />
+  <meta property="og:description" content="Uplaod files easily and share them with your friends and colleagues. File upload solution for everyone. Upload big files and get a link to share effortlesly." />
+  <meta name="keywords" content="file upload, upload file, transfer file" />
+  <meta name="author" content="Mert Tufan Vatandost" />
+  <meta name="Copyright" content="easyupload.io" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="apple-itunes-app" content="app-id=6446423284">
+  <link rel="icon" type="image/png" href="https://easyupload.io/img/favicon/favicon.png" />
+  <link rel="apple-touch-icon" sizes="57x57" href="https://easyupload.io/img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="https://easyupload.io/img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="https://easyupload.io/img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://easyupload.io/img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="https://easyupload.io/img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://easyupload.io/img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://easyupload.io/img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://easyupload.io/img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://easyupload.io/img/favicon/apple-icon-180x180.png">
+  <link rel="apple-touch-icon-precomposed" href="https://easyupload.io/img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://easyupload.io/img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://easyupload.io/img/favicon/apple-icon-180x180.png">
+  <link rel="apple-touch-icon-precomposed" sizes="167x167" ref="https://easyupload.io/img/favicon/apple-icon-180x180.png">
+  <link rel="manifest" href="https://easyupload.io/img/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="https://easyupload.io/img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="https://easyupload.io/css/materialize.min.css">
+  <link rel="stylesheet" href="https://easyupload.io/css/bootstrap.css">
+  <link rel="stylesheet" href="https://easyupload.io/css/bootstrap-select.css">
+  <link rel="stylesheet" href="https://easyupload.io/css/style_v3.css">
+  <link rel="stylesheet" href="https://easyupload.io/css/dropzone.css">
+  <title>Upload Files | Free File Upload and Transfer Up To 10 GB</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "url": "https://easyupload.io",
+    "logo": "https://easyupload.io/img/logo.png"
+  }
+  </script>
+  <script type="application/ld+json">
+   {
+     "@context" : "https://schema.org",
+     "@type" : "WebSite",
+     "name" : "Easyupload",
+     "url" : "https://easyupload.io"
+   }
+ </script>
+ <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Easyupload Premium",
+  "image": "https://easyupload.io/img/premium.png",
+  "description": "Get premium features including higher upload limits and faster downloads.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Easyupload"
+  },
+  "offers": [
+    {
+      "@type": "Offer",
+      "url": "https://easyupload.io/premium",
+      "priceCurrency": "USD",
+      "price": "7.99",
+      "priceValidUntil": "2025-12-31",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock",
+      "eligibleDuration": "P1M",
+      "name": "Monthly Subscription"
+    },
+    {
+      "@type": "Offer",
+      "url": "https://easyupload.io/premium",
+      "priceCurrency": "USD",
+      "price": "69.99",
+      "priceValidUntil": "2025-12-31",
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/InStock",
+      "eligibleDuration": "P1Y",
+      "name": "Yearly Subscription"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "url": "https://easyupload.io",
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "support@easyupload.io",
+    "contactType": "Customer Service",
+    "areaServed": "US",
+    "availableLanguage": "English"
+  }]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is it free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Uploading your files is totally free. You can upload files up to 10 GB as a free user but your files can be stored for maximum 30 days if you are a free user. You can optionally purchase a premium account to increase file size and storage up to 1 TB and store them forever."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What can I upload?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can upload any file as long as they are legal. We are very strict about laws so any uploaded file that violates any law or our terms of use will be deleted immediately and your account will be closed without any notification."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I share?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is really easy to share your files. After you complete an upload, a download link will be generated. You can share this link with anyone and when they visit this link they will see a download button and get your files easily."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Download limit per file?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is no limit download limit for the uploaded files. When the files expire or are deleted, they won't be available for downloading anymore."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why was my file deleted?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Any file that violates any law or our terms of use will be deleted immediately. Also your file may expire after 30 days if you are a free user."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to report a file?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can use the 'Report File' link on the download file page if you think that the file violates any law or our terms of use. You can also use the 'Contact Us' menu."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://easyupload.io"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "DMCA",
+      "item": "https://easyupload.io/dmca"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "FAQ",
+      "item": "https://easyupload.io#faq"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "How It Works",
+      "item": "https://easyupload.io#how-it-works"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Contact Us",
+      "item": "https://easyupload.io/contact-us"
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "name": "Panel",
+      "item": "https://easyupload.io/panel"
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "name": "Login / Register",
+      "item": "https://easyupload.io/login"
+    }
+  ]
+}
+</script>
+
+
+  <script src="https://easyupload.io/js/jquery-3.6.0.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.0/dist/sweetalert2.all.min.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" integrity="sha512-q583ppKrCRc7N5O0n2nzUiJ+suUv7Et1JGels4bXOaMFQcamPk9HjdUknZuuFjBNs7tsMuadge5k9RzdmO+1GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+  function loader(position,color) {
+    if ( color != '' && color != null ) {
+      var html = '<div class="loader" style="background-color: ' + color + '">';
+    } else {
+      var html = '<div class="loader">';
+    }
+    html += '<div class="preloader-wrapper small active"> <div class="spinner-layer spinner-blue"><div class="circle-clipper left"> <div class="circle"></div></div><div class="gap-patch"> <div class="circle"></div></div><div class="circle-clipper right"> <div class="circle"></div></div> </div> <div class="spinner-layer spinner-red"><div class="circle-clipper left"> <div class="circle"></div></div><div class="gap-patch"> <div class="circle"></div></div><div class="circle-clipper right"> <div class="circle"></div></div> </div> <div class="spinner-layer spinner-yellow"><div class="circle-clipper left"> <div class="circle"></div></div><div class="gap-patch"> <div class="circle"></div></div><div class="circle-clipper right"> <div class="circle"></div></div> </div> <div class="spinner-layer spinner-green"><div class="circle-clipper left"> <div class="circle"></div></div><div class="gap-patch"> <div class="circle"></div></div><div class="circle-clipper right"> <div class="circle"></div></div> </div></div></div>';
+    $(position).css('position','relative');
+    if ( position == 'html' ) { $(position).css("overflow","hidden"); }
+    $(position).append(html);
+  }
+  function loaderclose(position) {
+    if ( position == '' || position == null ) {
+      $('.loader').remove();
+    } else {
+      if ( $(position).children('.loader').length > 0 ) {
+        if ( position == "html" ) { $(position).css('overflow','unset'); $(position).css("position",""); }
+        $(position).children('.loader').remove();
+      }
+    }
+  }
+  // loader('html');
+</script>
+</head>
+<body>
+
+  <header>
+    <style type="text/css">@font-face {font-family:Roboto;font-style:normal;font-weight:400;src:url(/cf-fonts/s/roboto/5.0.11/cyrillic/400/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:400;src:url(/cf-fonts/s/roboto/5.0.11/cyrillic-ext/400/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:400;src:url(/cf-fonts/s/roboto/5.0.11/greek/400/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:400;src:url(/cf-fonts/s/roboto/5.0.11/greek-ext/400/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:400;src:url(/cf-fonts/s/roboto/5.0.11/latin/400/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:400;src:url(/cf-fonts/s/roboto/5.0.11/latin-ext/400/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:400;src:url(/cf-fonts/s/roboto/5.0.11/vietnamese/400/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:500;src:url(/cf-fonts/s/roboto/5.0.11/cyrillic-ext/500/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:500;src:url(/cf-fonts/s/roboto/5.0.11/vietnamese/500/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:500;src:url(/cf-fonts/s/roboto/5.0.11/greek/500/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:500;src:url(/cf-fonts/s/roboto/5.0.11/greek-ext/500/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:500;src:url(/cf-fonts/s/roboto/5.0.11/cyrillic/500/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:500;src:url(/cf-fonts/s/roboto/5.0.11/latin/500/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:500;src:url(/cf-fonts/s/roboto/5.0.11/latin-ext/500/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:700;src:url(/cf-fonts/s/roboto/5.0.11/latin/700/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:700;src:url(/cf-fonts/s/roboto/5.0.11/vietnamese/700/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:700;src:url(/cf-fonts/s/roboto/5.0.11/greek/700/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:700;src:url(/cf-fonts/s/roboto/5.0.11/cyrillic/700/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:700;src:url(/cf-fonts/s/roboto/5.0.11/cyrillic-ext/700/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:700;src:url(/cf-fonts/s/roboto/5.0.11/greek-ext/700/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:700;src:url(/cf-fonts/s/roboto/5.0.11/latin-ext/700/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}</style>
+<style>
+.nav-wrapper, .nav-wrapper .link, .nav-wrapper .right-header span, .nav-wrapper .dropdown-menu .submenu a {
+    font-family: 'Roboto', sans-serif;
+}
+</style>
+<div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper">
+            <div class="top-header">
+                <div class="container">
+                    <div class="left-header valign-wrapper hide-on-med-and-down">
+                        <a href="https://easyupload.io/" class="logo">
+                            <img class="responsive-img" width="184" height="80" alt="file upload" src="https://easyupload.io/img/logo-new.png"/>
+                        </a>
+                    </div>
+
+                    <div class="right-header valign-wrapper hide-on-med-and-down">
+                      <!-- DMCA Logo -->
+          <a href="https://www.dmca.com/compliance/easyupload.io" target="_blank">
+              <img src="https://easyupload.io/img/dmca.png" alt="DMCA Compliant" width="155" height="45" style="margin-left: 15px;" />
+          </a>
+                        <a class="link" href="https://easyupload.io/dmca">DMCA</a>
+                                                    <a class="link" href="https://easyupload.io/#faq">FAQ</a>
+                            <a class="link" href="https://easyupload.io/#how-it-works">How It Works</a>
+                                                    <a class="link" href="https://easyupload.io/contact-us">Contact Us</a>
+                                                    <a class="link" href="https://easyupload.io/login">
+                                <img alt="upload account" src="https://easyupload.io/img/person.png">
+                                <span>Login / Register</span>
+                            </a>
+                                                </div>
+
+                    <div class="left-header valign-wrapper hide-on-large-only">
+                        <a href="#" data-target="slide-out" class="sidenav-trigger"><img class="icon" width="40" height="40" alt="upload files easily" src="https://easyupload.io/img/menu.png"></a>
+                    </div>
+
+                    <div class="right-header valign-wrapper hide-on-large-only">
+                        <a href="https://easyupload.io/" class="logo">
+                            <img class="responsive-img" width="184" height="80" alt="file-upload" src="https://easyupload.io/img/logo-new.png"/>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<ul id="slide-out" class="sidenav ">
+      <a class="waves-effect btn" href="https://easyupload.io/login">Login</a>
+    <li >
+      <div class="collapsible-header">
+        <a href="https://easyupload.io/">
+          <img class="icon" alt="eas-upload" src="https://easyupload.io/img/home.png" />
+          <span>Home</span>
+        </a>
+      </div>
+    </li>
+    <li class="sep"></li>
+    <li>
+      <div class="collapsible-header">
+                  <a class="link" href="https://easyupload.io/#faq">
+            <img class="icon" alt="faq" src="https://easyupload.io/img/faq.png" />
+            <span>FAQ</span>
+          </a>
+                </div>
+    </li>
+    <li class="sep"></li>
+    <li>
+      <div class="collapsible-header">
+                  <a class="link" href="https://easyupload.io/#how-it-works">
+            <img class="icon" alt="how-it-works" src="https://easyupload.io/img/how-it-works.png" />
+            <span>How It Works</span>
+          </a>
+                </div>
+    </li>
+    <li class="sep"></li>
+    <li >
+      <div class="collapsible-header">
+        <a href="https://easyupload.io/blog">
+          <img class="icon" alt="blog" src="https://easyupload.io/img/blog.png" />
+          <span>Blog</span>
+        </a>
+      </div>
+    </li>
+    <li class="sep"></li>
+    <li >
+      <div class="collapsible-header">
+        <a href="https://easyupload.io/premium">
+          <img class="icon" alt="premium" src="https://easyupload.io/img/premium.png" />
+          <span>Premium</span>
+        </a>
+      </div>
+    </li>
+    <li class="sep"></li>
+    <li >
+      <div class="collapsible-header">
+        <a href="https://easyupload.io/contact-us">
+          <img class="icon" alt="contact-us" src="https://easyupload.io/img/info.png" />
+          <span>Contact Us</span>
+        </a>
+      </div>
+    </li>
+    <li class="sep"></li>
+    <li>
+      <!-- DMCA Logo -->
+<a href="https://www.dmca.com/compliance/easyupload.io" target="_blank">
+<img src="https://easyupload.io/img/dmca.png" alt="DMCA Compliant" width="104" height="30" style="margin-left: 1px;" />
+</a>
+    </li>
+    </ul>
+  </header>
+  <main>
+    
+	            <script>
+                window.googletag = window.googletag || {};
+                window.googletag.cmd = window.googletag.cmd || [];
+                window.googletag.cmd.push(() => {
+                    window.googletag.pubads().enableAsyncRendering();
+                    window.googletag.pubads().disableInitialLoad();
+                });
+
+                const injectPgScript = (src, isAsync, onLoadCallback) => {
+                    if (!src) return;
+                    const script = document.createElement("script");
+                    script.src = src;
+                    if (isAsync) script.async = isAsync;
+                    if (onLoadCallback) script.onload = onLoadCallback;
+                    document.head.appendChild(script);
+                };
+
+                const initiatePgAds = () => {
+                    !!window.__tcfapi && window.__tcfapi("addEventListener", 2, (tcData, success) => {
+                        if (success && (tcData.eventStatus === "useractioncomplete" || tcData.eventStatus === "tcloaded" || tcData.gdprApplies === false)) {
+                            if (!window._initAds) {
+                                window._initAds = true;
+                                injectPgScript("//dsh7ky7308k4b.cloudfront.net/publishers/easyuploadio.min.js", true);
+                                injectPgScript("//btloader.com/tag?o=5184339635601408&upapi=true", true);
+                            }
+                        }
+                    });
+                };
+
+                injectPgScript("https://securepubads.g.doubleclick.net/tag/js/gpt.js", true, () => {
+                    window.googlefc = window.googlefc || { callbackQueue: [] };
+                    window.googlefc.callbackQueue.push({
+                        "CONSENT_API_READY": () => initiatePgAds()
+                    });
+                });
+            </script>
+        
+
+	<div class="home">
+		<div class="upload">
+			<div class="reklam">
+						<div class="mobilead center">
+						    						        <div id='easyuploadio47702'></div>
+						    						</div>
+
+
+						<div class="desktopad center">
+						    						        <div id='easyuploadio47704'></div>
+						    						</div>
+
+	      </div>
+
+								    <div class="showonbig mt-5" style="height:600px; width:300px; position:absolute; background: transparent; left:10px; margin-top: 60px;">
+				        <!-- TAGNAME: Download Side 1 Desktop -->
+				        <div id='easyuploadio47705'></div>
+				    </div>
+				    <div class="showonbig mt-5" style="height:600px; width:300px; position:absolute; background: transparent; right:10px; margin-top: 60px;">
+				        <!-- TAGNAME: Download Side 2 Desktop -->
+				        <div id='easyuploadio47706'></div>
+				    </div>
+				
+
+			<h4 class="flow-text turbo">Crafteri 1.png</h4>
+			<h6>Size: 3.1 KB | Expires: 0 Days | Uploaded: 11 Feb 2025 | Public</h6>
+            			  <!-- <p><a href="https://easyupload.io/panel/premium" class="turbo underline pat">Always download with premium speed by going premium.</a></p> -->
+        <p id="infnoti" class="turbo pat">Download is ready.</p>
+			<div class="container download" id="download-box">
+				<div class="row" id="special-section">
+					<div id="normal-section" class="col s8 m6 l4 offset-m3 offset-l4 offset-s2">
+													<a class="div start-download">
+								<h5 id="hd1">Download</h5>
+								<img height="24" width="24" src="https://easyupload.io/img/down.png" />
+								<p id="hd2">Download with High Speed</p>
+							</a>
+												</div>
+				</div>
+			</div>
+      <div class="container">
+        <div class="row">
+          <a href="https://easyupload.io/report/pnrlb6" class="report">Report This File</a>
+        </div>
+      </div>
+			<div class="container">
+				<div class="reklam">
+			    <div class="mobilead center">
+
+						<div class="row">
+						    						        <div id='easyuploadio47703'></div>
+						    						</div>
+
+						<div class="container" style="width:300px; height:250px;">
+							<div class="row">
+							    							        <script src="https://cnt.trvdp.com/js/1402/10273.js" async></script>
+							        							</div>
+
+						</div>
+
+			    </div>
+			    <div class="desktopad center" style="width:500px; height:300px;">
+						<div class="row">
+						    						        <script src="https://cnt.trvdp.com/js/1402/10318.js" async></script>
+						        						</div>
+
+
+			    </div>
+
+			</div>
+
+
+
+	</div>
+
+
+    <div class="container images">
+      <div class="row">
+        <div class="col s12 m4">
+          <img src="https://easyupload.io/img/upload1.png" />
+          <p>Easy File Upload</p>
+        </div>
+        <div class="col s12 m4">
+          <img src="https://easyupload.io/img/upload2.png" />
+          <p>High Network Speed</p>
+        </div>
+        <div class="col s12 m4">
+          <img src="https://easyupload.io/img/upload3.png" />
+          <p>Optional Premium Plan</p>
+        </div>
+      </div>
+    </div>
+		</div>
+		<iframe class="download-iframe hide" src=""></iframe>
+		<div id="password-modal" class="modal">
+			<div class="modal-content">
+				<h4 class="title">Password Protected</h4>
+				<div class="sep"></div>
+				<p>This file is password protected. Please enter the password to start download</p>
+				<div class="error center"></div>
+				<div class="row">
+					<div class="input-field col s12 left-align">
+						<label for="password">File Password</label>
+						<input id="password" type="text" class="validate" name="password" minlength="6" maxlength="20" data-length="20" >
+						<img class="icon" src="https://easyupload.io/img/password.png" />
+					</div>
+					<div class="input-field col s12 right-align">
+						<button type="button" class="waves-effect btn" id="password-button">Download</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+						<script>window.adhesive="true"</script>
+				<script>window.interstitial="true"</script>
+
+		</div>
+
+		<script>
+		$(document).ready(function(){
+       console.log('aktifreklam: pubgalaxy')
+			function generateCaptcha(length) {
+    let result = '';
+    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    const charactersLength = characters.length;
+    let counter = 0;
+    while (counter < length) {
+      result += characters.charAt(Math.floor(Math.random() * charactersLength));
+      counter += 1;
+    }
+    return result;
+}
+			var method = "regular";
+			$('#password-modal').modal({
+				'dismissable': false
+			});
+
+			var captcha='';
+			$(".start-download").click(function(e) {
+
+					captcha=generateCaptcha(32);
+				  // console.log(captcha);
+					method = "regular";
+											createDownloadToken("",captcha);
+						
+					$('html, body').animate({
+					 scrollTop: $("#download-box").offset().top
+			 	}, 1000); // Adjust the duration (1000ms = 1s) for smooth scrolling
+
+
+			});
+
+			$("#password-button").click(function(e) {
+				var password = $("#password").val();
+				createDownloadToken(password,captcha);
+				console.log('here1');
+			});
+
+			$("#password-modal").on("click", "button .btn", function(){
+				var password = $("#password").val();
+				createDownloadToken(password,captcha);
+				console.log('here2');
+			});
+
+      		    $('#infnoti').html('<a href="https://easyupload.io/panel/premium" target="_blank" style="color: inherit; text-decoration: none;">Download Faster! Get a <strong>70% discount</strong> on your first month of premium subscription with the code: <strong>70percent</strong></a>');
+		    			$("#password-modal button.btn").click(function() {
+				var password = $("#password").val();
+				createDownloadToken(password,captcha);
+				console.log('here');
+			});
+
+			function createDownloadToken(value,cvalue) {
+				// loader($("#normal-section"));
+        loader($("#password-modal .modal-content"));
+				$.ajax({
+					type: "POST",
+					url: "https://eu1.easyupload.io/action.php",
+					data: {
+						type: "download-token",
+						url: "pnrlb6",
+						value: value,
+						captchatoken: cvalue,
+						method: method
+					},
+					xhrFields: {
+						withCredentials: true
+					},
+					crossDomain: true,
+					dataType: "json",
+					success: function(r) {
+						if ( r.status ) {
+							$("#password-modal .error").html('<img class="icon" src="https://easyupload.io/img/check.png" />' + r.data);
+							// $(".download-iframe").attr('src', r.download_link);
+							window.location = r.download_link;
+							$('#password-modal').modal('close');
+						} else {
+							$("#password-modal .error").html('<img class="icon" src="https://easyupload.io/img/warning.png" />' + r.data);
+							if ( r.data == "1" ) {
+								$('#password-modal').modal('close');
+								$('#download-error').modal('open');
+							}
+						}
+						loaderclose($("#password-modal .modal-content"));
+
+					}
+				});
+			}
+      gtag('event', 'download_page_view');
+		});
+		</script>
+	</div>
+	    <script>
+    // loaderclose("html");
+    // loader("main");
+    </script>
+  </main>
+
+  <footer>
+    <footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 l5 info">
+        <img alt ="upload files" width="210" height="70" src="https://easyupload.io/img/logo.png" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m5 l5 info">
+        <div class="sep"></div>
+        <div><p>Easyupload.io offers free file upload and transfer service without limits. Upload files &amp; share them with your friends and colleagues without time, download or bandwidth limit. Easyupload.io offers these services for free any without need of registration.</p></div>
+      </div>
+      <div class="col s12 m4 offset-m3 column">
+        <span class="title">QUICK LINKS</span>
+        <ul>
+          <li class="newspace"><a href="https://easyupload.io/contact-us">Contact Us</a></li>
+          <div class="sep"></div>
+          <li class="newspace"><a href="https://easyupload.io/terms-of-use">Terms of Use</a></li>
+          <div class="sep"></div>
+          <li class="newspace"><a href="https://easyupload.io/privacy-policy">Privacy Policy</a></li>
+          <div class="sep"></div>
+          <li class="newspace"><a href="https://easyupload.io/contact-us">Report Abuse</a></li>
+          <!-- <li><a href="https://easyupload.io/dmca">DMCA</a></li> -->
+        </ul>
+        <a href="https://twitter.com/easyupload_io?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @easyupload_io</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+            <a href="https://apps.apple.com/tr/app/easyupload-io-transfer-files/id6446423284"><img class ="appstoreicon" alt="appstore easy upload" width="200" height="67" src="https://easyupload.io/img/appstore.png" /></a>
+             <a href="https://play.google.com/store/apps/details?id=com.io.easyupload_last"><img class="playstoreicon" alt="google play easy upload" width="200" height="67" src="https://easyupload.io/img/googleplay.png" /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="valign-wrapper">
+            <span class="copyright">Copyright © 2025, easyupload.io - 0.00125 second</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="fluid-privacy-opt-out-link" onmouseover="this.style.color='rgb(25, 103, 210)'; this.style.cursor='pointer'"
+    onmouseout="this.style.color='#CCCCCC'; this.style.cursor='auto'"></div>
+  <script>
+    const privacyOptOutLink = document.getElementById("fluid-privacy-opt-out-link");
+    window.googlefc = window.googlefc || { callbackQueue: [] };
+    window.googlefc.ccpa = window.googlefc.ccpa || {}
+    window.googlefc.callbackQueue.push(
+      {
+        "CONSENT_API_READY": () => {
+          if (!privacyOptOutLink) {
+            return;
+          }
+          privacyOptOutLink.addEventListener("click", () => googlefc.showRevocationMessage());
+          !!window.__tcfapi && window.__tcfapi("addEventListener", 2, (tcData, success) => {
+            if (success && tcData.gdprApplies) {
+              privacyOptOutLink.innerText = "Change GDPR Consent";
+              return;
+            }
+            if (googlefc.ccpa.InitialCcpaStatusEnum() === googlefc.ccpa.InitialCcpaStatusEnum.NOT_OPTED_OUT) {
+              window.googlefc.ccpa.overrideDnsLink = true;
+              privacyOptOutLink.innerText = "Don't sell or share my personal info";
+              privacyOptOutLink.addEventListener("click", () => googlefc.ccpa.openConfirmationDialog((optedOut) => {
+                if (optedOut) {
+                  privacyOptOutLink.style.display = "none";
+                }
+              }));
+              return
+            }
+          });
+        }
+      });
+  </script>
+</footer>
+  </footer>
+
+  <script src="https://easyupload.io/js/materialize.js"></script>
+  <script src="https://easyupload.io/js/bootstrap.js"></script>
+  <script src="https://easyupload.io/js/bootstrap-select.js"></script>
+  <script src="https://easyupload.io/js/clipboard.js"></script>
+  <script src="https://easyupload.io/js/dropzone.js?20211111122500"></script>
+  <script>
+  $(document).ready(function() {
+
+
+
+
+    M.AutoInit();
+    $('.tooltipped').tooltip({
+      position: 'top',
+      delay: 50,
+      html: true
+    });
+
+    $("form input[type!=checkbox][type!=range][type!=hidden][type!=file][type!=number]:not(.file-path):not(.select-dropdown):not(.form-control):not(.chip-input):not(.datepicker), textarea").characterCounter();
+
+    $('input[type=checkbox]:not(.sw)').wrap('<div class="checkbox checkbox-primary"><label></label></div>').after('<span class="checkbox-material"><span class="check"></span></span>');
+
+    $('.selectpicker').selectpicker();
+
+    $("button[name=delete]").click(function() {
+      if ( confirm('Are you sure you want to delete?') ) {
+        return true;
+      }
+      return false;
+    });
+
+    $(document).on('click', 'a[href^="#"]', function(e) {
+      // target element id
+      if ( !$(this).hasClass("modal-trigger") ) {
+        var id = $(this).attr('href');
+
+        // target element
+        var $id = $(id);
+        if ($id.length === 0) {
+          return;
+        }
+
+        // prevent standard hash navigation (avoid blinking in IE)
+        e.preventDefault();
+
+        // top position relative to the document
+        var pos = $(id).offset().top;
+
+        // animated top scrolling
+        $('**html, body**').animate({scrollTop: pos}, 500);
+        $('.sidenav').sidenav('close');
+      }
+    });
+  });
+
+  window.addEventListener('load', function () {
+    loaderclose('html');
+  });
+  </script>
+
+</body>
+</html>
