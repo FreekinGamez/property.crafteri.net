@@ -206,6 +206,8 @@ const handleCopy = () => {
 
   const INITIAL_LOAD_COUNT = 30;
 
+  const [filtersVisible, setFiltersVisible] = useState(false);
+
   useEffect(() => {
     const fetchInitialData = async () => {
       try {
@@ -256,48 +258,61 @@ const handleCopy = () => {
   return React.createElement('div', { className: 'app' },
     React.createElement(Header),
     React.createElement('div', { className: 'filter-section' },
-      React.createElement(DistrictFilter, {
-        properties,
-        selectedDistricts,
-        onChange: setSelectedDistricts
-      }),
-      React.createElement('input', {
-        type: 'number',
-        placeholder: 'Min Price',
-        className: `filter-input ${filters.minPrice ? 'active' : ''}`,
-        onChange: (e) => setFilters({...filters, minPrice: e.target.value})
-      }),
-      React.createElement('input', {
-        type: 'number',
-        placeholder: 'Max Price',
-        className: `filter-input ${filters.maxPrice ? 'active' : ''}`,
-        onChange: (e) => setFilters({...filters, maxPrice: e.target.value})
-      }),
-      React.createElement('input', {
-        type: 'number',
-        placeholder: 'Min ROI %',
-        className: `filter-input ${filters.minROI ? 'active' : ''}`,
-        onChange: (e) => setFilters({...filters, minROI: e.target.value})
-      }),
-      React.createElement('select', {
-        onChange: (e) => setFilters({...filters, beds: e.target.value}),
-        className: `filter-input ${filters.beds !== 'all' ? 'active' : ''}`,
-        value: filters.beds
-      },
-        React.createElement('option', { value: 'all' }, 'All Beds'),
-        React.createElement('option', { value: '1' }, '1+ Beds'),
-        React.createElement('option', { value: '2' }, '2+ Beds'),
-        React.createElement('option', { value: '3' }, '3+ Beds')
+      React.createElement('button', {
+        className: `filter-toggle ${filtersVisible ? 'active' : ''}`,
+        onClick: () => setFiltersVisible(!filtersVisible),
+        title: 'Toggle Filters'
+      }, 
+        React.createElement('span', { className: 'material-icons' }, 'filter_alt')
       ),
-      React.createElement(SortButton, {
-        onSortChange: (field, ascending) => setSortConfig({ field, ascending }),
-        sortConfig
-      }),
+      React.createElement('div', { 
+        className: `filters-container ${filtersVisible ? 'visible' : ''}`
+      },
+        React.createElement(DistrictFilter, {
+          properties,
+          selectedDistricts,
+          onChange: setSelectedDistricts
+        }),
+        React.createElement('input', {
+          type: 'number',
+          placeholder: 'Min Price',
+          className: `filter-input ${filters.minPrice ? 'active' : ''}`,
+          onChange: (e) => setFilters({...filters, minPrice: e.target.value})
+        }),
+        React.createElement('input', {
+          type: 'number',
+          placeholder: 'Max Price',
+          className: `filter-input ${filters.maxPrice ? 'active' : ''}`,
+          onChange: (e) => setFilters({...filters, maxPrice: e.target.value})
+        }),
+        React.createElement('input', {
+          type: 'number',
+          placeholder: 'Min ROI %',
+          className: `filter-input ${filters.minROI ? 'active' : ''}`,
+          onChange: (e) => setFilters({...filters, minROI: e.target.value})
+        }),
+        React.createElement('select', {
+          onChange: (e) => setFilters({...filters, beds: e.target.value}),
+          className: `filter-input ${filters.beds !== 'all' ? 'active' : ''}`,
+          value: filters.beds
+        },
+          React.createElement('option', { value: 'all' }, 'All Beds'),
+          React.createElement('option', { value: '1' }, '1+ Beds'),
+          React.createElement('option', { value: '2' }, '2+ Beds'),
+          React.createElement('option', { value: '3' }, '3+ Beds')
+        ),
+        React.createElement(SortButton, {
+          onSortChange: (field, ascending) => setSortConfig({ field, ascending }),
+          sortConfig
+        }),     
+      ),
       React.createElement(ViewModeSelector, {
         currentMode: viewMode,
         onModeChange: setViewMode
       })
     ),
+    
+
     viewMode === 'grid' && React.createElement('div', { className: 'properties-grid' },
       loading 
         ? React.createElement('div', null, 'Loading...')
