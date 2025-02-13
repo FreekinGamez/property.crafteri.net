@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'https://esm.sh/react';
 import { createRoot } from 'https://esm.sh/react-dom/client';
 import { Header, Footer } from '/headerfooter.js';
 import { TableView } from '/tableview.js';
+import { GraphView } from '/graphview.js';
 
 const PropertyCard = ({ property }) => {
   const roiIcon = property.roi >= 0 ? 'trending_up' : 'trending_down';
@@ -179,6 +180,14 @@ const App = () => {
   const [sortConfig, setSortConfig] = useState({ field: 'roi', ascending: false });
   const [viewMode, setViewMode] = useState('grid');
   const [selectedRows, setSelectedRows] = useState([]);
+  const [search, setSearch] = useState('');
+  const [pendingFilters, setPendingFilters] = useState({
+  minPrice: '',
+  maxPrice: '',
+  minROI: '',
+  beds: 'all'
+});
+
 
 const handleRowSelect = (webId, isSelected) => {
   setSelectedRows(prev => 
@@ -242,7 +251,12 @@ const handleCopy = () => {
   const filteredProperties = properties.filter(property => {
     const price = parseFloat(property.price) || 0;
     const beds = parseInt(property.beds) || 0;
+    const searchMatch = !search || 
+      property.name.toLowerCase().includes(search.toLowerCase()) ||
+      property.district.toLowerCase().includes(search.toLowerCase());
+    
     return (
+      searchMatch &&
       (selectedDistricts.length === 0 || selectedDistricts.includes(property.district)) &&
       (!filters.minPrice || price >= parseFloat(filters.minPrice)) &&
       (!filters.maxPrice || price <= parseFloat(filters.maxPrice)) &&
@@ -251,6 +265,7 @@ const handleCopy = () => {
        (filters.beds === '4' ? beds >= 4 : beds === parseInt(filters.beds)))
     );
   });
+  
 
   const sortedProperties = [...filteredProperties].sort((a, b) => {
     const aValue = parseFloat(a[sortConfig.field]) || 0;
@@ -279,25 +294,28 @@ const handleCopy = () => {
         React.createElement('input', {
           type: 'number',
           placeholder: 'Min Price',
-          className: `filter-input ${filters.minPrice ? 'active' : ''}`,
-          onChange: (e) => setFilters({...filters, minPrice: e.target.value})
+          className: `filter-input ${pendingFilters.minPrice ? 'active' : ''}`,
+          value: pendingFilters.minPrice,
+          onChange: (e) => setPendingFilters({...pendingFilters, minPrice: e.target.value})
         }),
         React.createElement('input', {
           type: 'number',
           placeholder: 'Max Price',
-          className: `filter-input ${filters.maxPrice ? 'active' : ''}`,
-          onChange: (e) => setFilters({...filters, maxPrice: e.target.value})
+          className: `filter-input ${pendingFilters.maxPrice ? 'active' : ''}`,
+          value: pendingFilters.maxPrice,
+          onChange: (e) => setPendingFilters({...pendingFilters, maxPrice: e.target.value})
         }),
         React.createElement('input', {
           type: 'number',
           placeholder: 'Min ROI %',
-          className: `filter-input ${filters.minROI ? 'active' : ''}`,
-          onChange: (e) => setFilters({...filters, minROI: e.target.value})
+          className: `filter-input ${pendingFilters.minROI ? 'active' : ''}`,
+          value: pendingFilters.minROI,
+          onChange: (e) => setPendingFilters({...pendingFilters, minROI: e.target.value})
         }),
         React.createElement('select', {
-          onChange: (e) => setFilters({...filters, beds: e.target.value}),
-          className: `filter-input ${filters.beds !== 'all' ? 'active' : ''}`,
-          value: filters.beds
+          onChange: (e) => setPendingFilters({...pendingFilters, beds: e.target.value}),
+          className: `filter-input ${pendingFilters.beds !== 'all' ? 'active' : ''}`,
+          value: pendingFilters.beds
         },
           React.createElement('option', { value: 'all' }, 'All Beds'),
           React.createElement('option', { value: '0' }, '0 Beds'),
@@ -306,10 +324,23 @@ const handleCopy = () => {
           React.createElement('option', { value: '3' }, '3 Beds'),
           React.createElement('option', { value: '4' }, '4+ Beds')
         ),
+
+        React.createElement('input', {
+          type: 'text',
+          placeholder: 'Search...',
+          className: `filter-input ${search ? 'active' : ''}`,
+          value: search,
+          onChange: (e) => setSearch(e.target.value)
+        }),
+        
         React.createElement(SortButton, {
           onSortChange: (field, ascending) => setSortConfig({ field, ascending }),
           sortConfig
         }),     
+        React.createElement('button', {
+          className: 'apply-button',
+          onClick: () => setFilters(pendingFilters)
+        }, 'Apply')
       ),
       React.createElement(ViewModeSelector, {
         currentMode: viewMode,
@@ -319,14 +350,22 @@ const handleCopy = () => {
     
 
     viewMode === 'grid' && React.createElement('div', { className: 'properties-grid' },
-      loading 
-        ? React.createElement('div', null, 'Loading...')
-        : sortedProperties.map(property => 
-            React.createElement(PropertyCard, { 
-              key: property.id, 
-              property 
-            })
-          )
+loading 
+  ? React.createElement('div', { className: 'loading-container' },
+      React.createElement('span', { 
+        className: 'material-icons loading-icon'
+      }, 'autorenew'),
+      React.createElement('span', { 
+        className: 'loading-text'
+      }, 'Loading properties...')
+    )
+  : sortedProperties.map(property => 
+      React.createElement(PropertyCard, { 
+        key: property.id, 
+        property 
+      })
+    )
+
     ),
     viewMode === 'table' && !loading && React.createElement(TableView, {
         properties: sortedProperties,
@@ -335,9 +374,9 @@ const handleCopy = () => {
   	onSelectAll: handleSelectAll,
   	onCopy: handleCopy
     }),
-    viewMode === 'graph' && React.createElement('div', { className: 'placeholder-view' },
-      React.createElement('h2', null, 'Graph View Coming Soon')
-    ),
+    viewMode === 'graph' && React.createElement(GraphView, {
+      properties: sortedProperties
+    }),
     viewMode === 'news' && React.createElement('div', { className: 'placeholder-view' },
       React.createElement('h2', null, 'News View Coming Soon')
     ),

@@ -86,10 +86,22 @@
   border: 1px solid #e5e7eb;
   border-radius: 8px;
   font-size: 0.9rem;
-  min-width: 150px;
+  min-width: 160px;
   background: white;
   transition: all 0.2s;
   cursor: pointer;
+}
+
+
+.filter-input[type="number"], 
+.filter-input[type="text"] {
+  width: 160px;
+  min-width: unset;
+}
+
+.filter-input[type="text"] {
+  width: 220px;
+  min-width: unset;
 }
 
 
@@ -188,6 +200,7 @@
   z-index: 2000; /* Much higher z-index to ensure it's above everything */
   min-width: 200px;
 }
+
 
 .district-option, .sort-option {
   display: flex;
@@ -327,6 +340,37 @@
   box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
 }
 
+/* Add these at the end of app.css */
+.graph-controls {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+}
+
+.graph-type-selector {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.graph-type-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.graph-type-btn.active {
+  background: var(--primary-blue);
+  color: white;
+}
+
+
 @media (max-width: 1200px) {
   .properties-grid {
     grid-template-columns: repeat(2, minmax(350px, 1fr));
@@ -371,6 +415,12 @@
     width: 100%;
   }
 
+  .filter-input[type="number"], 
+.filter-input[type="text"] {
+  width: 500px;
+  min-width: unset;
+}
+
   .property-card {
     max-width: 100%;
   }
@@ -385,6 +435,34 @@
   
 }
 
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+  gap: 1rem;
+}
+
+.loading-icon {
+  color: var(--primary-blue);
+  font-size: 48px;
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-text {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+}
 
 @keyframes fadeInFilter {
   from {
@@ -404,3 +482,4 @@
 .filters-container.visible > *:nth-child(5) { animation-delay: 0.2s; }
 .filters-container.visible > *:nth-child(6) { animation-delay: 0.25s; }
 .filters-container.visible > *:nth-child(7) { animation-delay: 0.3s; }
+.filters-container.visible > .apply-button { animation-delay: 0.35s; } /* Longer delay than other items */
