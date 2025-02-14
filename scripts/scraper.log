@@ -1,0 +1,1140 @@
+2025-02-08 14:50:13,877 - INFO - Processing district: Westside (https://www.propertygibraltar.com/districts/westside-gibraltar-1)
+2025-02-08 14:50:17,881 - INFO -   Processing development: Atlantic Suites -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=8&off_plan=1&under_offer=1
+2025-02-08 14:50:21,336 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-atlantic-suites-13529?p=0
+2025-02-08 14:50:24,041 - INFO - Extracted market stats: {'studio': 1161.0, '1bed': 1875.0, '2bed': 2850.0}
+2025-02-08 14:50:24,052 - INFO -     Inserted data for Atlantic Suites
+2025-02-08 14:50:24,053 - INFO -   Processing development: Europlaza -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=42&off_plan=1&under_offer=1
+2025-02-08 14:50:27,323 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-europlaza-12676?p=0
+2025-02-08 14:50:30,240 - INFO - Extracted market stats: {'2bed': 1675.0, '4bed': 4250.0}
+2025-02-08 14:50:30,242 - INFO -     Inserted data for Europlaza
+2025-02-08 14:50:30,243 - INFO -   Processing development: Eurotowers -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=43&off_plan=1&under_offer=1
+2025-02-08 14:50:33,039 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-eurotowers-13259?p=0
+2025-02-08 14:50:37,428 - INFO - Extracted market stats: {'1bed': 1319.0, '3bed': 1950.0}
+2025-02-08 14:50:37,432 - INFO -     Inserted data for Eurotowers
+2025-02-08 14:50:37,432 - WARNING - No 'Residential To Let' link found for Harbour Views in Westside.
+2025-02-08 14:50:37,433 - WARNING - No 'Residential To Let' link found for Montagu Crescent in Westside.
+2025-02-08 14:50:37,433 - WARNING - No 'Residential To Let' link found for Montagu Gardens in Westside.
+2025-02-08 14:50:37,434 - INFO -   Processing development: Peninsular Heights -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=74&off_plan=1&under_offer=1
+2025-02-08 14:50:39,677 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-peninsular-heights-13471?p=0
+2025-02-08 14:50:42,430 - INFO - Extracted market stats: {'3bed': 1750.0}
+2025-02-08 14:50:42,433 - INFO -     Inserted data for Peninsular Heights
+2025-02-08 14:50:42,433 - WARNING - No 'Residential To Let' link found for Sir William Jackson Grove in Westside.
+2025-02-08 14:50:42,434 - WARNING - No 'Residential To Let' link found for Waterport Place in Westside.
+2025-02-08 14:50:42,434 - WARNING - No 'Residential To Let' link found for Waterport Terraces in Westside.
+2025-02-08 14:50:42,435 - INFO -   Processing development: West One, Eurotowers -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=110&off_plan=1&under_offer=1
+2025-02-08 14:50:45,462 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-west-one-eurotowers-13327?p=0
+2025-02-08 14:50:48,629 - INFO - Extracted market stats: {'studio': 950.0, '2bed': 1850.0}
+2025-02-08 14:50:48,633 - INFO -     Inserted data for West One, Eurotowers
+2025-02-08 14:50:48,633 - INFO -   Processing development: West Side -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=111&off_plan=1&under_offer=1
+2025-02-08 14:50:51,770 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-west-side-9324?p=0
+2025-02-08 14:50:55,030 - INFO - Extracted market stats: {'studio': 975.0, '1bed': 1300.0, '3bed': 3150.0}
+2025-02-08 14:50:55,037 - INFO -     Inserted data for West Side
+2025-02-08 14:50:55,038 - WARNING - No 'Residential To Let' link found for Westview Park in Westside.
+2025-02-08 14:50:55,039 - WARNING - No 'Residential To Let' link found for EuroCity in Westside.
+2025-02-08 14:50:55,040 - WARNING - No 'Residential To Let' link found for Mons Calpe Mews in Westside.
+2025-02-08 14:50:55,040 - WARNING - No 'Residential To Let' link found for North Mole Road in Westside.
+2025-02-08 14:50:55,040 - INFO - Processing district: Eastside (https://www.propertygibraltar.com/districts/eastside-gibraltar-2)
+2025-02-08 14:50:58,302 - INFO -   Processing development: Both Worlds -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=13&off_plan=1&under_offer=1
+2025-02-08 14:51:00,547 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-both-worlds-12803?p=0
+2025-02-08 14:51:04,531 - INFO - Extracted market stats: {'studio': 204998.0, '1bed': 1150.0}
+2025-02-08 14:51:04,534 - INFO -     Inserted data for Both Worlds
+2025-02-08 14:51:04,535 - WARNING - No 'Residential To Let' link found for Carltree House in Eastside.
+2025-02-08 14:51:04,536 - INFO -   Processing development: Catalan Bay -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=22&off_plan=1&under_offer=1
+2025-02-08 14:51:07,532 - INFO -     Found property URL: https://www.propertygibraltar.com/property/maisonette-catalan-bay-10542?p=0
+2025-02-08 14:51:11,221 - INFO - Extracted market stats: {'3bed': 825000.0, '1bed': 2000.0}
+2025-02-08 14:51:11,224 - INFO -     Inserted data for Catalan Bay
+2025-02-08 14:51:11,225 - WARNING - No 'Residential To Let' link found for Catalan Gardens in Eastside.
+2025-02-08 14:51:11,225 - INFO -   Processing development: Clemence Suites -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=25&off_plan=1&under_offer=1
+2025-02-08 14:51:13,660 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-clemence-suites-13431?p=0
+2025-02-08 14:51:17,824 - INFO - Extracted market stats: {'1bed': 1600.0, '2bed': 2350.0}
+2025-02-08 14:51:17,827 - INFO -     Inserted data for Clemence Suites
+2025-02-08 14:51:17,828 - WARNING - No 'Residential To Let' link found for Devil's Tower Road in Eastside.
+2025-02-08 14:51:17,829 - INFO -   Processing development: East Side -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=36&off_plan=1&under_offer=1
+2025-02-08 14:51:21,844 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-east-side-13508?p=0
+2025-02-08 14:51:25,427 - INFO - Extracted market stats: {}
+2025-02-08 14:51:25,430 - INFO -     Inserted data for East Side
+2025-02-08 14:51:25,431 - WARNING - No 'Residential To Let' link found for Eaton Park in Eastside.
+2025-02-08 14:51:25,431 - INFO -   Processing development: Filomena House -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=44&off_plan=1&under_offer=1
+2025-02-08 14:51:29,111 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-filomena-house-13112?p=0
+2025-02-08 14:51:31,628 - INFO - Extracted market stats: {'2bed': 1795.0}
+2025-02-08 14:51:31,631 - INFO -     Inserted data for Filomena House
+2025-02-08 14:51:31,632 - WARNING - No 'Residential To Let' link found for Little Genoa in Eastside.
+2025-02-08 14:51:31,632 - INFO -   Processing development: Northview Terrace -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=70&off_plan=1&under_offer=1
+2025-02-08 14:51:35,577 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-northview-terrace-13097?p=0
+2025-02-08 14:51:39,032 - INFO - Extracted market stats: {'2bed': 1300.0, '3bed': 355000.0}
+2025-02-08 14:51:39,036 - INFO -     Inserted data for Northview Terrace
+2025-02-08 14:51:39,036 - WARNING - No 'Residential To Let' link found for Shackleton House in Eastside.
+2025-02-08 14:51:39,037 - WARNING - No 'Residential To Let' link found for Wellington Court in Eastside.
+2025-02-08 14:51:39,037 - INFO -   Processing development: The Hub -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=121&off_plan=1&under_offer=1
+2025-02-08 14:51:41,948 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-the-hub-12835?p=0
+2025-02-08 14:51:45,045 - INFO - Extracted market stats: {'studio': 951.0}
+2025-02-08 14:51:45,049 - INFO -     Inserted data for The Hub
+2025-02-08 14:51:45,049 - INFO -   Processing development: Forbes -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=128&off_plan=1&under_offer=1
+2025-02-08 14:51:48,896 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-forbes-9710?p=0
+2025-02-08 14:51:52,635 - INFO - Extracted market stats: {'studio': 272564.0, '2bed': 2607.0, '3bed': 2950.0, '4bed': 949950.0}
+2025-02-08 14:51:52,638 - INFO -     Inserted data for Forbes
+2025-02-08 14:51:52,639 - INFO -   Processing development: E1 -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=129&off_plan=1&under_offer=1
+2025-02-08 14:51:55,636 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-e1-6772?b=143p=1
+2025-02-08 14:51:58,867 - INFO - Extracted market stats: {'studio': 1149.0, '2bed': 3625.0, '1bed': 1425.0}
+2025-02-08 14:51:58,916 - INFO -     Inserted data for E1
+2025-02-08 14:51:58,916 - WARNING - No 'Residential To Let' link found for Beach View Terraces in Eastside.
+2025-02-08 14:51:58,917 - WARNING - No 'Residential To Let' link found for Sunrise View in Eastside.
+2025-02-08 14:51:58,917 - WARNING - No 'Residential To Let' link found for Riviera Mews in Eastside.
+2025-02-08 14:51:58,918 - WARNING - No 'Residential To Let' link found for CitiHome in Eastside.
+2025-02-08 14:51:58,918 - WARNING - No 'Residential To Let' link found for Eastside Development in Eastside.
+2025-02-08 14:51:58,918 - WARNING - No 'Residential To Let' link found for One Bayside in Eastside.
+2025-02-08 14:51:58,919 - WARNING - No 'Residential To Let' link found for Monument Place & Monument Plaza in Eastside.
+2025-02-08 14:51:58,919 - WARNING - No 'Residential To Let' link found for Keystone Residence in Eastside.
+2025-02-08 14:51:58,919 - INFO - Processing district: Town Area (https://www.propertygibraltar.com/districts/town-area-gibraltar-3)
+2025-02-08 14:52:03,525 - WARNING - No 'Residential To Let' link found for Bell Lane in Town Area.
+2025-02-08 14:52:03,526 - WARNING - No 'Residential To Let' link found for Cannon Lane in Town Area.
+2025-02-08 14:52:03,526 - WARNING - No 'Residential To Let' link found for Casemates Square in Town Area.
+2025-02-08 14:52:03,527 - WARNING - No 'Residential To Let' link found for City Mill Lane in Town Area.
+2025-02-08 14:52:03,527 - WARNING - No 'Residential To Let' link found for Close Main Street in Town Area.
+2025-02-08 14:52:03,527 - WARNING - No 'Residential To Let' link found for College Lane in Town Area.
+2025-02-08 14:52:03,528 - WARNING - No 'Residential To Let' link found for Cornwall's Parade in Town Area.
+2025-02-08 14:52:03,528 - WARNING - No 'Residential To Let' link found for Cornwall's Centre in Town Area.
+2025-02-08 14:52:03,529 - INFO -   Processing development: Cornwall's Lane -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=32&off_plan=1&under_offer=1
+2025-02-08 14:52:07,050 - INFO -     Found property URL: https://www.propertygibraltar.com/property/studio-cornwalls-lane-13237?p=0
+2025-02-08 14:52:09,920 - INFO - Extracted market stats: {}
+2025-02-08 14:52:09,923 - INFO -     Inserted data for Cornwall's Lane
+2025-02-08 14:52:09,924 - INFO -   Processing development: Flat Bastion Road -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=45&off_plan=1&under_offer=1
+2025-02-08 14:52:12,831 - INFO -     Found property URL: https://www.propertygibraltar.com/property/duplex-flat-bastion-road-13625?p=0
+2025-02-08 14:52:15,931 - INFO - Extracted market stats: {}
+2025-02-08 14:52:15,935 - INFO -     Inserted data for Flat Bastion Road
+2025-02-08 14:52:15,935 - INFO -   Processing development: Gardiner's Road -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=46&off_plan=1&under_offer=1
+2025-02-08 14:52:18,897 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-gardiners-road-7151?p=0
+2025-02-08 14:52:23,146 - INFO - Extracted market stats: {'2bed': 545000.0, '3bed': 2750.0}
+2025-02-08 14:52:23,151 - INFO -     Inserted data for Gardiner's Road
+2025-02-08 14:52:23,152 - INFO -   Processing development: Gardiner's View -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=47&off_plan=1&under_offer=1
+2025-02-08 14:52:25,918 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-gardiners-view-13293?p=0
+2025-02-08 14:52:28,325 - INFO - Extracted market stats: {'1bed': 1200.0}
+2025-02-08 14:52:28,327 - INFO -     Inserted data for Gardiner's View
+2025-02-08 14:52:28,328 - WARNING - No 'Residential To Let' link found for Gibraltar Heights in Town Area.
+2025-02-08 14:52:28,329 - WARNING - No 'Residential To Let' link found for Governor's Street in Town Area.
+2025-02-08 14:52:28,329 - INFO -   Processing development: Lynch's Lane -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=57&off_plan=1&under_offer=1
+2025-02-08 14:52:30,653 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-lynchs-lane-13534?p=0
+2025-02-08 14:52:33,629 - INFO - Extracted market stats: {}
+2025-02-08 14:52:33,632 - INFO -     Inserted data for Lynch's Lane
+2025-02-08 14:52:33,633 - INFO -   Processing development: Main Street -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=58&off_plan=1&under_offer=1
+2025-02-08 14:52:36,941 - INFO -     Found property URL: https://www.propertygibraltar.com/property/studio-main-street-13668?p=0
+2025-02-08 14:52:40,526 - INFO - Extracted market stats: {'studio': 700.0, '1bed': 1325.0, '2bed': 1688.0, '3bed': 3000.0}
+2025-02-08 14:52:40,529 - INFO -     Inserted data for Main Street
+2025-02-08 14:52:40,530 - INFO -   Processing development: Midtown -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=63&off_plan=1&under_offer=1
+2025-02-08 14:52:43,022 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-midtown-13627?p=0
+2025-02-08 14:52:46,729 - INFO - Extracted market stats: {'1bed': 2100.0, '2bed': 3300.0, '3bed': 5000.0}
+2025-02-08 14:52:46,732 - INFO -     Inserted data for Midtown
+2025-02-08 14:52:46,733 - INFO -   Processing development: Ocean Heights -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=71&off_plan=1&under_offer=1
+2025-02-08 14:52:50,056 - INFO -     Found property URL: https://www.propertygibraltar.com/property/studio-ocean-heights-12996?p=0
+2025-02-08 14:52:52,725 - INFO - Extracted market stats: {'studio': 840.0, '1bed': 1025.0}
+2025-02-08 14:52:52,729 - INFO -     Inserted data for Ocean Heights
+2025-02-08 14:52:52,730 - INFO -   Processing development: Town Area -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=101&off_plan=1&under_offer=1
+2025-02-08 14:52:57,038 - INFO -     Found property URL: https://www.propertygibraltar.com/property/studio-town-area-13526?p=0
+2025-02-08 14:53:01,556 - INFO - Extracted market stats: {'studio': 880.0, '1bed': 1261.0, '2bed': 1887.0, '3bed': 3263.0, '4bed': 4211.0}
+2025-02-08 14:53:01,559 - INFO -     Inserted data for Town Area
+2025-02-08 14:53:01,560 - INFO -   Processing development: Trafalgar House -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=103&off_plan=1&under_offer=1
+2025-02-08 14:53:05,551 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-trafalgar-house-7686?p=0
+2025-02-08 14:53:10,034 - INFO - Extracted market stats: {'2bed': 407667.0, '3bed': 400750.0, '4bed': 3577.0}
+2025-02-08 14:53:10,038 - INFO -     Inserted data for Trafalgar House
+2025-02-08 14:53:10,038 - WARNING - No 'Residential To Let' link found for Pitman's Court in Town Area.
+2025-02-08 14:53:10,039 - WARNING - No 'Residential To Let' link found for King's Street in Town Area.
+2025-02-08 14:53:10,039 - INFO -   Processing development: George's Lane -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=118&off_plan=1&under_offer=1
+2025-02-08 14:53:13,336 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-georges-lane-12721?p=0
+2025-02-08 14:53:16,819 - INFO - Extracted market stats: {}
+2025-02-08 14:53:16,822 - INFO -     Inserted data for George's Lane
+2025-02-08 14:53:16,823 - WARNING - No 'Residential To Let' link found for Benzimras Alley in Town Area.
+2025-02-08 14:53:16,823 - WARNING - No 'Residential To Let' link found for Continental Suites in Town Area.
+2025-02-08 14:53:16,824 - WARNING - No 'Residential To Let' link found for Governor's Parade in Town Area.
+2025-02-08 14:53:16,825 - INFO -   Processing development: The Residence -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=132&off_plan=1&under_offer=1
+2025-02-08 14:53:19,207 - INFO -     Found property URL: https://www.propertygibraltar.com/property/studio-the-residence-10101?p=0
+2025-02-08 14:53:23,833 - INFO - Extracted market stats: {'studio': 1008.0, '2bed': 1913.0, '1bed': 975.0}
+2025-02-08 14:53:23,836 - INFO -     Inserted data for The Residence
+2025-02-08 14:53:23,837 - WARNING - No 'Residential To Let' link found for King's Yard Lane in Town Area.
+2025-02-08 14:53:23,837 - INFO -   Processing development: 269 Main Street -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=151&off_plan=1&under_offer=1
+2025-02-08 14:53:27,324 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-269-main-street-13405?p=0
+2025-02-08 14:53:30,663 - INFO - Extracted market stats: {'studio': 195000.0, '2bed': 462000.0, '3bed': 619667.0, '1bed': 1483.0}
+2025-02-08 14:53:30,716 - INFO -     Inserted data for 269 Main Street
+2025-02-08 14:53:30,717 - WARNING - No 'Residential To Let' link found for The Hargrave in Town Area.
+2025-02-08 14:53:30,717 - WARNING - No 'Residential To Let' link found for La Maison Rouge in Town Area.
+2025-02-08 14:53:30,717 - WARNING - No 'Residential To Let' link found for Regency Plaza in Town Area.
+2025-02-08 14:53:30,718 - WARNING - No 'Residential To Let' link found for Turnbull's Lane in Town Area.
+2025-02-08 14:53:30,718 - WARNING - No 'Residential To Let' link found for Midtown Hudson in Town Area.
+2025-02-08 14:53:30,719 - WARNING - No 'Residential To Let' link found for Midtown Liberty in Town Area.
+2025-02-08 14:53:30,719 - INFO - Processing district: South District (https://www.propertygibraltar.com/districts/south-district-gibraltar-4)
+2025-02-08 14:53:34,734 - WARNING - No 'Residential To Let' link found for Admiral's Place in South District.
+2025-02-08 14:53:34,734 - WARNING - No 'Residential To Let' link found for Bayview Terraces in South District.
+2025-02-08 14:53:34,734 - WARNING - No 'Residential To Let' link found for Brympton in South District.
+2025-02-08 14:53:34,735 - WARNING - No 'Residential To Let' link found for Buena Vista Mews in South District.
+2025-02-08 14:53:34,735 - INFO -   Processing development: Buena Vista Park Villas -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=17&off_plan=1&under_offer=1
+2025-02-08 14:53:38,271 - INFO -     Found property URL: https://www.propertygibraltar.com/property/detached-house-buena-vista-park-villas-13591?p=0
+2025-02-08 14:53:41,165 - INFO - Extracted market stats: {'4bed': 9000.0}
+2025-02-08 14:53:41,168 - INFO -     Inserted data for Buena Vista Park Villas
+2025-02-08 14:53:41,169 - INFO -   Processing development: Buena Vista Road -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=18&off_plan=1&under_offer=1
+2025-02-08 14:53:44,883 - INFO -     Found property URL: https://www.propertygibraltar.com/property/detached-house-buena-vista-road-13294?p=0
+2025-02-08 14:53:47,818 - INFO - Extracted market stats: {'3bed': 6500.0}
+2025-02-08 14:53:47,822 - INFO -     Inserted data for Buena Vista Road
+2025-02-08 14:53:47,823 - WARNING - No 'Residential To Let' link found for Clifftop House in South District.
+2025-02-08 14:53:47,823 - INFO -   Processing development: Cumberland Road -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=33&off_plan=1&under_offer=1
+2025-02-08 14:53:51,606 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-cumberland-road-13647?p=0
+2025-02-08 14:53:54,628 - INFO - Extracted market stats: {'2bed': 1300.0}
+2025-02-08 14:53:54,631 - INFO -     Inserted data for Cumberland Road
+2025-02-08 14:53:54,632 - WARNING - No 'Residential To Let' link found for Cumberland Terraces in South District.
+2025-02-08 14:53:54,632 - WARNING - No 'Residential To Let' link found for Edward House in South District.
+2025-02-08 14:53:54,633 - WARNING - No 'Residential To Let' link found for Elliot's Battery in South District.
+2025-02-08 14:53:54,633 - WARNING - No 'Residential To Let' link found for Europa Mews in South District.
+2025-02-08 14:53:54,634 - WARNING - No 'Residential To Let' link found for Europa Road in South District.
+2025-02-08 14:53:54,634 - WARNING - No 'Residential To Let' link found for Genista House in South District.
+2025-02-08 14:53:54,634 - INFO -   Processing development: Highcliffe House -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=52&off_plan=1&under_offer=1
+2025-02-08 14:53:57,420 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-highcliffe-house-12873?p=0
+2025-02-08 14:54:01,556 - INFO - Extracted market stats: {'2bed': 2950.0}
+2025-02-08 14:54:01,559 - INFO -     Inserted data for Highcliffe House
+2025-02-08 14:54:01,559 - WARNING - No 'Residential To Let' link found for Jumpers in South District.
+2025-02-08 14:54:01,560 - INFO -   Processing development: Lord Napier Mews -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=56&off_plan=1&under_offer=1
+2025-02-08 14:54:03,770 - INFO -     Found property URL: https://www.propertygibraltar.com/property/detached-house-lord-napier-mews-10646?p=0
+2025-02-08 14:54:07,329 - INFO - Extracted market stats: {'4bed': 5500.0}
+2025-02-08 14:54:07,333 - INFO -     Inserted data for Lord Napier Mews
+2025-02-08 14:54:07,334 - INFO -   Processing development: Merlot House -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=62&off_plan=1&under_offer=1
+2025-02-08 14:54:10,409 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-merlot-house-13005?p=0
+2025-02-08 14:54:14,257 - INFO - Extracted market stats: {'3bed': 2200.0}
+2025-02-08 14:54:14,260 - INFO -     Inserted data for Merlot House
+2025-02-08 14:54:14,261 - INFO -   Processing development: Mount Road -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=66&off_plan=1&under_offer=1
+2025-02-08 14:54:16,834 - INFO -     Found property URL: https://www.propertygibraltar.com/property/penthouse-mount-road-11433?p=0
+2025-02-08 14:54:20,117 - INFO - Extracted market stats: {}
+2025-02-08 14:54:20,121 - INFO -     Inserted data for Mount Road
+2025-02-08 14:54:20,122 - WARNING - No 'Residential To Let' link found for Mount View in South District.
+2025-02-08 14:54:20,122 - WARNING - No 'Residential To Let' link found for Naval Hospital Hill in South District.
+2025-02-08 14:54:20,124 - WARNING - No 'Residential To Let' link found for Nelson's View in South District.
+2025-02-08 14:54:20,125 - INFO -   Processing development: Plata Villa -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=75&off_plan=1&under_offer=1
+2025-02-08 14:54:24,077 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-plata-villa-10052?p=0
+2025-02-08 14:54:26,620 - INFO - Extracted market stats: {'3bed': 3450.0}
+2025-02-08 14:54:26,623 - INFO -     Inserted data for Plata Villa
+2025-02-08 14:54:26,624 - WARNING - No 'Residential To Let' link found for Rock Gardens in South District.
+2025-02-08 14:54:26,624 - WARNING - No 'Residential To Let' link found for Rosbay Court in South District.
+2025-02-08 14:54:26,625 - WARNING - No 'Residential To Let' link found for Rosia Court in South District.
+2025-02-08 14:54:26,625 - WARNING - No 'Residential To Let' link found for Rosia Dale in South District.
+2025-02-08 14:54:26,626 - WARNING - No 'Residential To Let' link found for Rosia Plaza in South District.
+2025-02-08 14:54:26,626 - WARNING - No 'Residential To Let' link found for South Barrack Mews in South District.
+2025-02-08 14:54:26,627 - INFO -   Processing development: South District -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=89&off_plan=1&under_offer=1
+2025-02-08 14:54:30,255 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-south-district-13240?p=0
+2025-02-08 14:54:34,229 - INFO - Extracted market stats: {'studio': 800.0, '2bed': 1800.0, '3bed': 2480.0, '4bed': 6320.0}
+2025-02-08 14:54:34,232 - INFO -     Inserted data for South District
+2025-02-08 14:54:34,233 - WARNING - No 'Residential To Let' link found for Straits View in South District.
+2025-02-08 14:54:34,233 - WARNING - No 'Residential To Let' link found for Sunnyside House in South District.
+2025-02-08 14:54:34,233 - WARNING - No 'Residential To Let' link found for Sunset Close in South District.
+2025-02-08 14:54:34,234 - INFO -   Processing development: The Anchorage -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=94&off_plan=1&under_offer=1
+2025-02-08 14:54:38,336 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-the-anchorage-13042?p=0
+2025-02-08 14:54:41,240 - INFO - Extracted market stats: {'1bed': 1800.0, '3bed': 3900.0, '4bed': 3908.0}
+2025-02-08 14:54:41,244 - INFO -     Inserted data for The Anchorage
+2025-02-08 14:54:41,245 - INFO -   Processing development: The Cliftons -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=96&off_plan=1&under_offer=1
+2025-02-08 14:54:44,907 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-the-cliftons-13292?p=0
+2025-02-08 14:54:48,533 - INFO - Extracted market stats: {'2bed': 2875.0}
+2025-02-08 14:54:48,536 - INFO -     Inserted data for The Cliftons
+2025-02-08 14:54:48,537 - WARNING - No 'Residential To Let' link found for The Mount in South District.
+2025-02-08 14:54:48,537 - WARNING - No 'Residential To Let' link found for The Sanctuary in South District.
+2025-02-08 14:54:48,538 - WARNING - No 'Residential To Let' link found for Vineyards in South District.
+2025-02-08 14:54:48,538 - WARNING - No 'Residential To Let' link found for Witham's Road in South District.
+2025-02-08 14:54:48,538 - WARNING - No 'Residential To Let' link found for New Harbours in South District.
+2025-02-08 14:54:48,539 - WARNING - No 'Residential To Let' link found for Cumberland Steps in South District.
+2025-02-08 14:54:48,539 - WARNING - No 'Residential To Let' link found for Rosia Steps in South District.
+2025-02-08 14:54:48,539 - WARNING - No 'Residential To Let' link found for Europa Point in South District.
+2025-02-08 14:54:48,540 - WARNING - No 'Residential To Let' link found for Sandpits Mews in South District.
+2025-02-08 14:54:48,540 - WARNING - No 'Residential To Let' link found for Scud Hill in South District.
+2025-02-08 14:54:48,540 - INFO -   Processing development: Old Brympton Close -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=150&off_plan=1&under_offer=1
+2025-02-08 14:54:52,083 - INFO -     Found property URL: https://www.propertygibraltar.com/property/townhouse-old-brympton-close-12749?p=0
+2025-02-08 14:54:54,638 - INFO - Extracted market stats: {'4bed': 3400.0}
+2025-02-08 14:54:54,640 - INFO -     Inserted data for Old Brympton Close
+2025-02-08 14:54:54,641 - WARNING - No 'Residential To Let' link found for Rosia Road in South District.
+2025-02-08 14:54:54,641 - WARNING - No 'Residential To Let' link found for Carlton House in South District.
+2025-02-08 14:54:54,641 - WARNING - No 'Residential To Let' link found for The Reserve in South District.
+2025-02-08 14:54:54,642 - WARNING - No 'Residential To Let' link found for North Gorge in South District.
+2025-02-08 14:54:54,642 - WARNING - No 'Residential To Let' link found for Europa Walks in South District.
+2025-02-08 14:54:54,643 - INFO - Processing district: Queensway (https://www.propertygibraltar.com/districts/queensway-gibraltar-5)
+2025-02-08 14:54:57,334 - INFO -   Processing development: Cormorant Wharf -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=29&off_plan=1&under_offer=1
+2025-02-08 14:54:59,856 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-cormorant-wharf-13274?p=0
+2025-02-08 14:55:04,127 - INFO - Extracted market stats: {'2bed': 2850.0}
+2025-02-08 14:55:04,129 - INFO -     Inserted data for Cormorant Wharf
+2025-02-08 14:55:04,130 - INFO -   Processing development: Kings Wharf Quay 27 -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=54&off_plan=1&under_offer=1
+2025-02-08 14:55:07,189 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-kings-wharf-quay-27-13541?p=0
+2025-02-08 14:55:11,635 - INFO - Extracted market stats: {'1bed': 2150.0, '2bed': 2300.0, '3bed': 4633.0}
+2025-02-08 14:55:11,637 - INFO -     Inserted data for Kings Wharf Quay 27
+2025-02-08 14:55:11,638 - INFO -   Processing development: Ordnance Wharf -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=73&off_plan=1&under_offer=1
+2025-02-08 14:55:14,486 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-ordnance-wharf-12984?p=0
+2025-02-08 14:55:18,227 - INFO - Extracted market stats: {'3bed': 4350.0}
+2025-02-08 14:55:18,229 - INFO -     Inserted data for Ordnance Wharf
+2025-02-08 14:55:18,229 - INFO -   Processing development: Quay 29 -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=78&off_plan=1&under_offer=1
+2025-02-08 14:55:20,655 - INFO -     Found property URL: https://www.propertygibraltar.com/property/studio-quay-29-13501?p=0
+2025-02-08 14:55:24,628 - INFO - Extracted market stats: {'studio': 1500.0, '3bed': 3700.0}
+2025-02-08 14:55:24,630 - INFO -     Inserted data for Quay 29
+2025-02-08 14:55:24,631 - INFO -   Processing development: Queensway Quay -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=79&off_plan=1&under_offer=1
+2025-02-08 14:55:28,043 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-queensway-quay-10933?p=0
+2025-02-08 14:55:31,329 - INFO - Extracted market stats: {'2bed': 3225.0, '3bed': 5000.0, '4bed': 3950000.0}
+2025-02-08 14:55:31,332 - INFO -     Inserted data for Queensway Quay
+2025-02-08 14:55:31,332 - WARNING - No 'Residential To Let' link found for Ragged Staff Wharf in Queensway.
+2025-02-08 14:55:31,333 - WARNING - No 'Residential To Let' link found for The Island in Queensway.
+2025-02-08 14:55:31,333 - WARNING - No 'Residential To Let' link found for The Sails in Queensway.
+2025-02-08 14:55:31,334 - WARNING - No 'Residential To Let' link found for Park View in Queensway.
+2025-02-08 14:55:31,335 - WARNING - No 'Residential To Let' link found for Quay 31 in Queensway.
+2025-02-08 14:55:31,335 - INFO - Processing district: Ocean Village (https://www.propertygibraltar.com/districts/ocean-village-gibraltar-6)
+2025-02-08 14:55:34,822 - INFO -   Processing development: Marina Bay -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=59&off_plan=1&under_offer=1
+2025-02-08 14:55:38,730 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-marina-bay-13427?p=0
+2025-02-08 14:55:42,669 - INFO - Extracted market stats: {'1bed': 1600.0, '2bed': 1900.0}
+2025-02-08 14:55:42,717 - INFO -     Inserted data for Marina Bay
+2025-02-08 14:55:42,718 - INFO -   Processing development: Marina Court -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=60&off_plan=1&under_offer=1
+2025-02-08 14:55:46,401 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-marina-court-13669?p=0
+2025-02-08 14:55:50,439 - INFO - Extracted market stats: {'3bed': 2250.0}
+2025-02-08 14:55:50,441 - INFO -     Inserted data for Marina Court
+2025-02-08 14:55:50,442 - WARNING - No 'Residential To Let' link found for Marina Views in Ocean Village.
+2025-02-08 14:55:50,442 - INFO -   Processing development: Ocean Village -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=72&off_plan=1&under_offer=1
+2025-02-08 14:55:54,551 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-ocean-village-10132?p=0
+2025-02-08 14:55:57,925 - INFO - Extracted market stats: {'1bed': 1350.0, '2bed': 3650.0, '3bed': 2950.0}
+2025-02-08 14:55:57,928 - INFO -     Inserted data for Ocean Village
+2025-02-08 14:55:57,929 - INFO -   Processing development: Portland House -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=76&off_plan=1&under_offer=1
+2025-02-08 14:56:00,612 - INFO -     Found property URL: https://www.propertygibraltar.com/property/duplex-portland-house-13199?p=0
+2025-02-08 14:56:04,834 - INFO - Extracted market stats: {'2bed': 2200.0, '3bed': 2550.0}
+2025-02-08 14:56:04,838 - INFO -     Inserted data for Portland House
+2025-02-08 14:56:04,839 - INFO -   Processing development: Tradewinds -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=102&off_plan=1&under_offer=1
+2025-02-08 14:56:07,134 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-tradewinds-13136?p=0
+2025-02-08 14:56:10,235 - INFO - Extracted market stats: {'1bed': 2017.0, '2bed': 2900.0, '3bed': 3500.0}
+2025-02-08 14:56:10,239 - INFO -     Inserted data for Tradewinds
+2025-02-08 14:56:10,239 - INFO -   Processing development: Watergardens -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=106&off_plan=1&under_offer=1
+2025-02-08 14:56:13,378 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-watergardens-13350?p=0
+2025-02-08 14:56:17,625 - INFO - Extracted market stats: {'1bed': 1317.0, '2bed': 1673.0}
+2025-02-08 14:56:17,628 - INFO -     Inserted data for Watergardens
+2025-02-08 14:56:17,628 - WARNING - No 'Residential To Let' link found for World Trade Center in Ocean Village.
+2025-02-08 14:56:17,629 - INFO -   Processing development: Royal Ocean Plaza -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=139&off_plan=1&under_offer=1
+2025-02-08 14:56:20,725 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-royal-ocean-plaza-13654?p=0
+2025-02-08 14:56:23,828 - INFO - Extracted market stats: {'1bed': 1950.0, '2bed': 2300.0, '3bed': 3080.0}
+2025-02-08 14:56:23,832 - INFO -     Inserted data for Royal Ocean Plaza
+2025-02-08 14:56:23,833 - INFO -   Processing development: Grand Ocean Plaza -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=140&off_plan=1&under_offer=1
+2025-02-08 14:56:26,116 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-grand-ocean-plaza-10686?b=339p=0
+2025-02-08 14:56:29,833 - INFO - Extracted market stats: {'2bed': 2475.0, '3bed': 2950.0}
+2025-02-08 14:56:29,836 - INFO -     Inserted data for Grand Ocean Plaza
+2025-02-08 14:56:29,837 - INFO -   Processing development: Majestic Ocean Plaza -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=141&off_plan=1&under_offer=1
+2025-02-08 14:56:32,425 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-majestic-ocean-plaza-12667?b=420p=0
+2025-02-08 14:56:34,959 - INFO - Extracted market stats: {'2bed': 2180.0}
+2025-02-08 14:56:35,018 - INFO -     Inserted data for Majestic Ocean Plaza
+2025-02-08 14:56:35,019 - INFO -   Processing development: Ocean Spa Plaza -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=142&off_plan=1&under_offer=1
+2025-02-08 14:56:37,834 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-ocean-spa-plaza-12807?p=0
+2025-02-08 14:56:41,335 - INFO - Extracted market stats: {'studio': 1400.0, '1bed': 1741.0, '2bed': 2610.0, '3bed': 6250.0}
+2025-02-08 14:56:41,338 - INFO -     Inserted data for Ocean Spa Plaza
+2025-02-08 14:56:41,339 - INFO -   Processing development: Imperial Ocean Plaza -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=143&off_plan=1&under_offer=1
+2025-02-08 14:56:43,717 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-imperial-ocean-plaza-13566?p=0
+2025-02-08 14:56:47,317 - INFO - Extracted market stats: {'studio': 1350.0, '1bed': 1800.0, '2bed': 3750.0}
+2025-02-08 14:56:47,320 - INFO -     Inserted data for Imperial Ocean Plaza
+2025-02-08 14:56:47,321 - WARNING - No 'Residential To Let' link found for Garden Mews in Ocean Village.
+2025-02-08 14:56:47,321 - WARNING - No 'Residential To Let' link found for Leisure Island Business Centre in Ocean Village.
+2025-02-08 14:56:47,322 - INFO -   Processing development: Marina Club -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=158&off_plan=1&under_offer=1
+2025-02-08 14:56:51,119 - INFO -     Found property URL: https://www.propertygibraltar.com/property/studio-marina-club-13629?p=0
+2025-02-08 14:56:55,633 - INFO - Extracted market stats: {'studio': 1450.0, '1bed': 2263.0, '2bed': 2425.0, '3bed': 4410.0}
+2025-02-08 14:56:55,635 - INFO -     Inserted data for Marina Club
+2025-02-08 14:56:55,635 - WARNING - No 'Residential To Let' link found for Bayside Central in Ocean Village.
+2025-02-08 14:56:55,636 - WARNING - No 'Residential To Let' link found for Glacis Road in Ocean Village.
+2025-02-08 14:56:55,636 - INFO - Processing district: Upper Town (https://www.propertygibraltar.com/districts/upper-town-gibraltar-7)
+2025-02-08 14:56:59,059 - INFO -   Processing development: Barley Hill House -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=10&off_plan=1&under_offer=1
+2025-02-08 14:57:02,926 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-barley-hill-house-13200?p=0
+2025-02-08 14:57:06,437 - INFO - Extracted market stats: {'3bed': 1800.0}
+2025-02-08 14:57:06,440 - INFO -     Inserted data for Barley Hill House
+2025-02-08 14:57:06,440 - WARNING - No 'Residential To Let' link found for Bourne Place in Upper Town.
+2025-02-08 14:57:06,441 - WARNING - No 'Residential To Let' link found for Prince Edward's Road in Upper Town.
+2025-02-08 14:57:06,441 - WARNING - No 'Residential To Let' link found for Tarik Views in Upper Town.
+2025-02-08 14:57:06,442 - INFO -   Processing development: The Arches -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=95&off_plan=1&under_offer=1
+2025-02-08 14:57:09,703 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-the-arches-13608?p=0
+2025-02-08 14:57:12,429 - INFO - Extracted market stats: {'2bed': 1650.0}
+2025-02-08 14:57:12,432 - INFO -     Inserted data for The Arches
+2025-02-08 14:57:12,433 - INFO -   Processing development: Upper Town -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=104&off_plan=1&under_offer=1
+2025-02-08 14:57:15,247 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-upper-town-13561?p=0
+2025-02-08 14:57:17,830 - INFO - Extracted market stats: {'1bed': 1150.0, '2bed': 1470.0}
+2025-02-08 14:57:17,834 - INFO -     Inserted data for Upper Town
+2025-02-08 14:57:17,835 - INFO -   Processing development: Arengos Gardens -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=119&off_plan=1&under_offer=1
+2025-02-08 14:57:20,647 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-arengos-gardens-11972?b=366p=1
+2025-02-08 14:57:25,069 - INFO - Extracted market stats: {'2bed': 2313.0, '3bed': 3332.0, '1bed': 1238.0}
+2025-02-08 14:57:25,118 - INFO -     Inserted data for Arengos Gardens
+2025-02-08 14:57:25,119 - WARNING - No 'Residential To Let' link found for Prince Edward's Gate in Upper Town.
+2025-02-08 14:57:25,119 - WARNING - No 'Residential To Let' link found for Sanderson Suites in Upper Town.
+2025-02-08 14:57:25,120 - INFO -   Processing development: Sylvian Suites -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=133&off_plan=1&under_offer=1
+2025-02-08 14:57:28,300 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-sylvian-suites-13201?p=0
+2025-02-08 14:57:32,628 - INFO - Extracted market stats: {'1bed': 1150.0}
+2025-02-08 14:57:32,632 - INFO -     Inserted data for Sylvian Suites
+2025-02-08 14:57:32,633 - WARNING - No 'Residential To Let' link found for The Quarters in Upper Town.
+2025-02-08 14:57:32,634 - WARNING - No 'Residential To Let' link found for Bado's Gardens in Upper Town.
+2025-02-08 14:57:32,634 - WARNING - No 'Residential To Let' link found for Libra in Upper Town.
+2025-02-08 14:57:32,634 - WARNING - No 'Residential To Let' link found for Green Lane in Upper Town.
+2025-02-08 14:57:32,635 - INFO - Scraping completed
+2025-02-09 10:11:06,389 - INFO - Processing district: Westside (https://www.propertygibraltar.com/districts/westside-gibraltar-1)
+2025-02-09 10:11:09,625 - INFO -   Processing development: Atlantic Suites -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=8&off_plan=1&under_offer=1
+2025-02-09 10:14:55,534 - INFO - Processing district: Westside (https://www.propertygibraltar.com/districts/westside-gibraltar-1)
+2025-02-09 10:14:58,453 - INFO -   Processing development: Atlantic Suites -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=8&off_plan=1&under_offer=1
+2025-02-09 10:15:02,118 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-atlantic-suites-13529?p=0
+2025-02-09 10:15:04,714 - INFO - Extracted market stats (for rent): {'studio': 1161.0, '1bed': 1875.0, '2bed': 2850.0}
+2025-02-09 10:15:04,719 - INFO -     Inserted data for Atlantic Suites
+2025-02-09 10:15:04,720 - INFO -   Processing development: Europlaza -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=42&off_plan=1&under_offer=1
+2025-02-09 10:15:07,778 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-europlaza-12676?p=0
+2025-02-09 10:15:12,054 - INFO - Extracted market stats (for rent): {'2bed': 1675.0, '4bed': 4250.0}
+2025-02-09 10:15:12,058 - INFO -     Inserted data for Europlaza
+2025-02-09 10:15:12,058 - INFO -   Processing development: Eurotowers -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=43&off_plan=1&under_offer=1
+2025-02-09 10:15:14,640 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-eurotowers-13259?p=0
+2025-02-09 10:15:19,129 - INFO - Extracted market stats (for rent): {'1bed': 1319.0, '3bed': 1950.0}
+2025-02-09 10:15:19,133 - INFO -     Inserted data for Eurotowers
+2025-02-09 10:15:19,134 - WARNING - No 'Residential To Let' link found for Harbour Views in Westside.
+2025-02-09 10:15:19,134 - WARNING - No 'Residential To Let' link found for Montagu Crescent in Westside.
+2025-02-09 10:15:19,135 - WARNING - No 'Residential To Let' link found for Montagu Gardens in Westside.
+2025-02-09 10:15:19,135 - INFO -   Processing development: Peninsular Heights -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=74&off_plan=1&under_offer=1
+2025-02-09 10:15:23,040 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-peninsular-heights-13471?p=0
+2025-02-09 10:15:26,729 - INFO - Extracted market stats (for rent): {'3bed': 1750.0}
+2025-02-09 10:15:26,731 - INFO -     Inserted data for Peninsular Heights
+2025-02-09 10:15:26,732 - WARNING - No 'Residential To Let' link found for Sir William Jackson Grove in Westside.
+2025-02-09 10:15:26,732 - WARNING - No 'Residential To Let' link found for Waterport Place in Westside.
+2025-02-09 10:15:26,733 - WARNING - No 'Residential To Let' link found for Waterport Terraces in Westside.
+2025-02-09 10:15:26,733 - INFO -   Processing development: West One, Eurotowers -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=110&off_plan=1&under_offer=1
+2025-02-09 10:15:29,096 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-west-one-eurotowers-13327?p=0
+2025-02-09 10:15:31,958 - INFO - Extracted market stats (for rent): {'studio': 950.0, '2bed': 1850.0}
+2025-02-09 10:15:31,960 - INFO -     Inserted data for West One, Eurotowers
+2025-02-09 10:15:31,961 - INFO -   Processing development: West Side -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=111&off_plan=1&under_offer=1
+2025-02-09 10:15:35,891 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-west-side-9324?p=0
+2025-02-09 10:15:38,328 - INFO - Extracted market stats (for rent): {'studio': 975.0, '1bed': 1300.0, '3bed': 3150.0}
+2025-02-09 10:15:38,333 - INFO -     Inserted data for West Side
+2025-02-09 10:15:38,334 - WARNING - No 'Residential To Let' link found for Westview Park in Westside.
+2025-02-09 10:15:38,334 - WARNING - No 'Residential To Let' link found for EuroCity in Westside.
+2025-02-09 10:15:38,335 - WARNING - No 'Residential To Let' link found for Mons Calpe Mews in Westside.
+2025-02-09 10:15:38,335 - WARNING - No 'Residential To Let' link found for North Mole Road in Westside.
+2025-02-09 10:15:38,335 - INFO - Processing district: Eastside (https://www.propertygibraltar.com/districts/eastside-gibraltar-2)
+2025-02-09 10:15:41,369 - INFO -   Processing development: Both Worlds -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=13&off_plan=1&under_offer=1
+2025-02-09 10:15:44,361 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-both-worlds-12803?p=0
+2025-02-09 10:15:47,830 - INFO - Extracted market stats (for rent): {'1bed': 1150.0}
+2025-02-09 10:15:47,833 - INFO -     Inserted data for Both Worlds
+2025-02-09 10:15:47,833 - WARNING - No 'Residential To Let' link found for Carltree House in Eastside.
+2025-02-09 10:15:47,834 - INFO -   Processing development: Catalan Bay -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=22&off_plan=1&under_offer=1
+2025-02-09 10:15:50,529 - INFO -     Found property URL: https://www.propertygibraltar.com/property/maisonette-catalan-bay-10542?p=0
+2025-02-09 10:15:53,665 - INFO - Extracted market stats (for rent): {'1bed': 2000.0}
+2025-02-09 10:15:53,715 - INFO -     Inserted data for Catalan Bay
+2025-02-09 10:15:53,716 - WARNING - No 'Residential To Let' link found for Catalan Gardens in Eastside.
+2025-02-09 10:15:53,716 - INFO -   Processing development: Clemence Suites -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=25&off_plan=1&under_offer=1
+2025-02-09 10:15:56,681 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-clemence-suites-13431?p=0
+2025-02-09 10:16:00,233 - INFO - Extracted market stats (for rent): {'1bed': 1600.0, '2bed': 2350.0}
+2025-02-09 10:16:00,236 - INFO -     Inserted data for Clemence Suites
+2025-02-09 10:16:00,236 - WARNING - No 'Residential To Let' link found for Devil's Tower Road in Eastside.
+2025-02-09 10:16:00,237 - INFO -   Processing development: East Side -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=36&off_plan=1&under_offer=1
+2025-02-09 10:16:04,216 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-east-side-13508?p=0
+2025-02-09 10:16:07,025 - INFO - Extracted market stats (for rent): {}
+2025-02-09 10:16:07,026 - INFO -     No rent market stats found for East Side. Skipping insertion.
+2025-02-09 10:16:07,026 - WARNING - No 'Residential To Let' link found for Eaton Park in Eastside.
+2025-02-09 10:16:07,026 - INFO -   Processing development: Filomena House -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=44&off_plan=1&under_offer=1
+2025-02-09 10:16:10,658 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-filomena-house-13112?p=0
+2025-02-09 10:16:14,036 - INFO - Extracted market stats (for rent): {'2bed': 1795.0}
+2025-02-09 10:16:14,040 - INFO -     Inserted data for Filomena House
+2025-02-09 10:16:14,040 - WARNING - No 'Residential To Let' link found for Little Genoa in Eastside.
+2025-02-09 10:16:14,041 - INFO -   Processing development: Northview Terrace -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=70&off_plan=1&under_offer=1
+2025-02-09 10:16:17,053 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-northview-terrace-13097?p=0
+2025-02-09 10:16:20,446 - INFO - Extracted market stats (for rent): {'2bed': 1300.0}
+2025-02-09 10:16:20,449 - INFO -     Inserted data for Northview Terrace
+2025-02-09 10:16:20,450 - WARNING - No 'Residential To Let' link found for Shackleton House in Eastside.
+2025-02-09 10:16:20,450 - WARNING - No 'Residential To Let' link found for Wellington Court in Eastside.
+2025-02-09 10:16:20,451 - INFO -   Processing development: The Hub -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=121&off_plan=1&under_offer=1
+2025-02-09 10:16:23,753 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-the-hub-12835?p=0
+2025-02-09 10:16:26,442 - INFO - Extracted market stats (for rent): {'studio': 951.0}
+2025-02-09 10:16:26,445 - INFO -     Inserted data for The Hub
+2025-02-09 10:16:26,446 - INFO -   Processing development: Forbes -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=128&off_plan=1&under_offer=1
+2025-02-09 10:16:30,016 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-forbes-9710?p=0
+2025-02-09 10:16:34,022 - INFO - Extracted market stats (for rent): {'2bed': 2607.0, '3bed': 2950.0}
+2025-02-09 10:16:34,026 - INFO -     Inserted data for Forbes
+2025-02-09 10:16:34,027 - INFO -   Processing development: E1 -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=129&off_plan=1&under_offer=1
+2025-02-09 10:16:37,328 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-e1-6772?b=143p=1
+2025-02-09 10:16:40,459 - INFO - Extracted market stats (for rent): {'studio': 1149.0, '1bed': 1425.0, '2bed': 3625.0}
+2025-02-09 10:16:40,463 - INFO -     Inserted data for E1
+2025-02-09 10:16:40,464 - WARNING - No 'Residential To Let' link found for Beach View Terraces in Eastside.
+2025-02-09 10:16:40,464 - WARNING - No 'Residential To Let' link found for Sunrise View in Eastside.
+2025-02-09 10:16:40,464 - WARNING - No 'Residential To Let' link found for Riviera Mews in Eastside.
+2025-02-09 10:16:40,465 - WARNING - No 'Residential To Let' link found for CitiHome in Eastside.
+2025-02-09 10:16:40,465 - WARNING - No 'Residential To Let' link found for Eastside Development in Eastside.
+2025-02-09 10:16:40,465 - WARNING - No 'Residential To Let' link found for One Bayside in Eastside.
+2025-02-09 10:16:40,465 - WARNING - No 'Residential To Let' link found for Monument Place & Monument Plaza in Eastside.
+2025-02-09 10:16:40,466 - WARNING - No 'Residential To Let' link found for Keystone Residence in Eastside.
+2025-02-09 10:16:40,466 - INFO - Processing district: Town Area (https://www.propertygibraltar.com/districts/town-area-gibraltar-3)
+2025-02-09 10:16:44,654 - WARNING - No 'Residential To Let' link found for Bell Lane in Town Area.
+2025-02-09 10:16:44,654 - WARNING - No 'Residential To Let' link found for Cannon Lane in Town Area.
+2025-02-09 10:16:44,654 - WARNING - No 'Residential To Let' link found for Casemates Square in Town Area.
+2025-02-09 10:16:44,655 - WARNING - No 'Residential To Let' link found for City Mill Lane in Town Area.
+2025-02-09 10:16:44,655 - WARNING - No 'Residential To Let' link found for Close Main Street in Town Area.
+2025-02-09 10:16:44,656 - WARNING - No 'Residential To Let' link found for College Lane in Town Area.
+2025-02-09 10:16:44,656 - WARNING - No 'Residential To Let' link found for Cornwall's Parade in Town Area.
+2025-02-09 10:16:44,656 - WARNING - No 'Residential To Let' link found for Cornwall's Centre in Town Area.
+2025-02-09 10:16:44,657 - INFO -   Processing development: Cornwall's Lane -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=32&off_plan=1&under_offer=1
+2025-02-09 10:16:46,904 - INFO -     Found property URL: https://www.propertygibraltar.com/property/studio-cornwalls-lane-13237?p=0
+2025-02-09 10:16:49,519 - INFO - Extracted market stats (for rent): {}
+2025-02-09 10:16:49,519 - INFO -     No rent market stats found for Cornwall's Lane. Skipping insertion.
+2025-02-09 10:16:49,520 - INFO -   Processing development: Flat Bastion Road -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=45&off_plan=1&under_offer=1
+2025-02-09 10:16:53,140 - INFO -     Found property URL: https://www.propertygibraltar.com/property/duplex-flat-bastion-road-13625?p=0
+2025-02-09 10:16:56,918 - INFO - Extracted market stats (for rent): {}
+2025-02-09 10:16:56,918 - INFO -     No rent market stats found for Flat Bastion Road. Skipping insertion.
+2025-02-09 10:16:56,919 - INFO -   Processing development: Gardiner's Road -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=46&off_plan=1&under_offer=1
+2025-02-09 10:16:59,406 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-gardiners-road-7151?p=0
+2025-02-09 10:17:02,446 - INFO - Extracted market stats (for rent): {'3bed': 2750.0}
+2025-02-09 10:17:02,450 - INFO -     Inserted data for Gardiner's Road
+2025-02-09 10:17:02,450 - INFO -   Processing development: Gardiner's View -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=47&off_plan=1&under_offer=1
+2025-02-09 10:17:05,960 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-gardiners-view-13293?p=0
+2025-02-09 10:17:09,154 - INFO - Extracted market stats (for rent): {'1bed': 1200.0}
+2025-02-09 10:17:09,158 - INFO -     Inserted data for Gardiner's View
+2025-02-09 10:17:09,158 - WARNING - No 'Residential To Let' link found for Gibraltar Heights in Town Area.
+2025-02-09 10:17:09,159 - WARNING - No 'Residential To Let' link found for Governor's Street in Town Area.
+2025-02-09 10:17:09,159 - INFO -   Processing development: Lynch's Lane -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=57&off_plan=1&under_offer=1
+2025-02-09 10:17:12,545 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-lynchs-lane-13534?p=0
+2025-02-09 10:17:16,140 - INFO - Extracted market stats (for rent): {}
+2025-02-09 10:17:16,140 - INFO -     No rent market stats found for Lynch's Lane. Skipping insertion.
+2025-02-09 10:17:16,141 - INFO -   Processing development: Main Street -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=58&off_plan=1&under_offer=1
+2025-02-09 10:17:18,954 - INFO -     Found property URL: https://www.propertygibraltar.com/property/studio-main-street-13668?p=0
+2025-02-09 10:17:22,547 - INFO - Extracted market stats (for rent): {'studio': 700.0, '1bed': 1325.0, '2bed': 1688.0, '3bed': 3000.0}
+2025-02-09 10:17:22,550 - INFO -     Inserted data for Main Street
+2025-02-09 10:17:22,551 - INFO -   Processing development: Midtown -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=63&off_plan=1&under_offer=1
+2025-02-09 10:17:26,831 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-midtown-13627?p=0
+2025-02-09 10:17:29,818 - INFO - Extracted market stats (for rent): {'1bed': 2100.0, '2bed': 3300.0, '3bed': 5000.0}
+2025-02-09 10:17:29,821 - INFO -     Inserted data for Midtown
+2025-02-09 10:17:29,822 - INFO -   Processing development: Ocean Heights -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=71&off_plan=1&under_offer=1
+2025-02-09 10:17:33,243 - INFO -     Found property URL: https://www.propertygibraltar.com/property/studio-ocean-heights-12996?p=0
+2025-02-09 10:17:36,263 - INFO - Extracted market stats (for rent): {'studio': 840.0, '1bed': 1025.0}
+2025-02-09 10:17:36,315 - INFO -     Inserted data for Ocean Heights
+2025-02-09 10:17:36,316 - INFO -   Processing development: Town Area -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=101&off_plan=1&under_offer=1
+2025-02-09 10:17:40,029 - INFO -     Found property URL: https://www.propertygibraltar.com/property/studio-town-area-13526?p=0
+2025-02-09 10:17:42,946 - INFO - Extracted market stats (for rent): {'studio': 880.0, '1bed': 1224.0, '2bed': 1887.0, '3bed': 3263.0, '4bed': 4211.0}
+2025-02-09 10:17:42,950 - INFO -     Inserted data for Town Area
+2025-02-09 10:17:42,951 - INFO -   Processing development: Trafalgar House -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=103&off_plan=1&under_offer=1
+2025-02-09 10:17:45,860 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-trafalgar-house-7686?p=0
+2025-02-09 10:17:49,653 - INFO - Extracted market stats (for rent): {'4bed': 3577.0}
+2025-02-09 10:17:49,655 - INFO -     Inserted data for Trafalgar House
+2025-02-09 10:17:49,656 - WARNING - No 'Residential To Let' link found for Pitman's Court in Town Area.
+2025-02-09 10:17:49,656 - WARNING - No 'Residential To Let' link found for King's Street in Town Area.
+2025-02-09 10:17:49,656 - INFO -   Processing development: George's Lane -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=118&off_plan=1&under_offer=1
+2025-02-09 10:17:53,514 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-georges-lane-12721?p=0
+2025-02-09 10:17:56,242 - INFO - Extracted market stats (for rent): {}
+2025-02-09 10:17:56,242 - INFO -     No rent market stats found for George's Lane. Skipping insertion.
+2025-02-09 10:17:56,242 - WARNING - No 'Residential To Let' link found for Benzimras Alley in Town Area.
+2025-02-09 10:17:56,243 - WARNING - No 'Residential To Let' link found for Continental Suites in Town Area.
+2025-02-09 10:17:56,243 - WARNING - No 'Residential To Let' link found for Governor's Parade in Town Area.
+2025-02-09 10:17:56,244 - INFO -   Processing development: The Residence -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=132&off_plan=1&under_offer=1
+2025-02-09 10:18:00,218 - INFO -     Found property URL: https://www.propertygibraltar.com/property/studio-the-residence-10101?p=0
+2025-02-09 10:18:04,354 - INFO - Extracted market stats (for rent): {'studio': 1008.0, '1bed': 975.0, '2bed': 1913.0}
+2025-02-09 10:18:04,356 - INFO -     Inserted data for The Residence
+2025-02-09 10:18:04,356 - WARNING - No 'Residential To Let' link found for King's Yard Lane in Town Area.
+2025-02-09 10:18:04,357 - INFO -   Processing development: 269 Main Street -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=151&off_plan=1&under_offer=1
+2025-02-09 10:18:06,821 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-269-main-street-13405?p=0
+2025-02-09 10:18:11,062 - INFO - Extracted market stats (for rent): {'1bed': 1483.0}
+2025-02-09 10:18:11,116 - INFO -     Inserted data for 269 Main Street
+2025-02-09 10:18:11,117 - WARNING - No 'Residential To Let' link found for The Hargrave in Town Area.
+2025-02-09 10:18:11,117 - WARNING - No 'Residential To Let' link found for La Maison Rouge in Town Area.
+2025-02-09 10:18:11,118 - WARNING - No 'Residential To Let' link found for Regency Plaza in Town Area.
+2025-02-09 10:18:11,118 - WARNING - No 'Residential To Let' link found for Turnbull's Lane in Town Area.
+2025-02-09 10:18:11,119 - WARNING - No 'Residential To Let' link found for Midtown Hudson in Town Area.
+2025-02-09 10:18:11,119 - WARNING - No 'Residential To Let' link found for Midtown Liberty in Town Area.
+2025-02-09 10:18:11,119 - INFO - Processing district: South District (https://www.propertygibraltar.com/districts/south-district-gibraltar-4)
+2025-02-09 10:18:15,446 - WARNING - No 'Residential To Let' link found for Admiral's Place in South District.
+2025-02-09 10:18:15,447 - WARNING - No 'Residential To Let' link found for Bayview Terraces in South District.
+2025-02-09 10:18:15,447 - WARNING - No 'Residential To Let' link found for Brympton in South District.
+2025-02-09 10:18:15,448 - WARNING - No 'Residential To Let' link found for Buena Vista Mews in South District.
+2025-02-09 10:18:15,448 - INFO -   Processing development: Buena Vista Park Villas -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=17&off_plan=1&under_offer=1
+2025-02-09 10:18:17,937 - INFO -     Found property URL: https://www.propertygibraltar.com/property/detached-house-buena-vista-park-villas-13591?p=0
+2025-02-09 10:18:21,731 - INFO - Extracted market stats (for rent): {'4bed': 9000.0}
+2025-02-09 10:18:21,734 - INFO -     Inserted data for Buena Vista Park Villas
+2025-02-09 10:18:21,735 - INFO -   Processing development: Buena Vista Road -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=18&off_plan=1&under_offer=1
+2025-02-09 10:18:25,553 - INFO -     Found property URL: https://www.propertygibraltar.com/property/detached-house-buena-vista-road-13294?p=0
+2025-02-09 10:18:28,365 - INFO - Extracted market stats (for rent): {'3bed': 6500.0}
+2025-02-09 10:18:28,367 - INFO -     Inserted data for Buena Vista Road
+2025-02-09 10:18:28,368 - WARNING - No 'Residential To Let' link found for Clifftop House in South District.
+2025-02-09 10:18:28,369 - INFO -   Processing development: Cumberland Road -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=33&off_plan=1&under_offer=1
+2025-02-09 10:18:31,767 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-cumberland-road-13647?p=0
+2025-02-09 10:18:35,556 - INFO - Extracted market stats (for rent): {'2bed': 1300.0}
+2025-02-09 10:18:35,558 - INFO -     Inserted data for Cumberland Road
+2025-02-09 10:18:35,559 - WARNING - No 'Residential To Let' link found for Cumberland Terraces in South District.
+2025-02-09 10:18:35,559 - WARNING - No 'Residential To Let' link found for Edward House in South District.
+2025-02-09 10:18:35,560 - WARNING - No 'Residential To Let' link found for Elliot's Battery in South District.
+2025-02-09 10:18:35,560 - WARNING - No 'Residential To Let' link found for Europa Mews in South District.
+2025-02-09 10:18:35,561 - WARNING - No 'Residential To Let' link found for Europa Road in South District.
+2025-02-09 10:18:35,561 - WARNING - No 'Residential To Let' link found for Genista House in South District.
+2025-02-09 10:18:35,562 - INFO -   Processing development: Highcliffe House -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=52&off_plan=1&under_offer=1
+2025-02-09 10:18:38,319 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-highcliffe-house-12873?p=0
+2025-02-09 10:18:42,463 - INFO - Extracted market stats (for rent): {'2bed': 2950.0}
+2025-02-09 10:18:42,514 - INFO -     Inserted data for Highcliffe House
+2025-02-09 10:18:42,515 - WARNING - No 'Residential To Let' link found for Jumpers in South District.
+2025-02-09 10:18:42,515 - INFO -   Processing development: Lord Napier Mews -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=56&off_plan=1&under_offer=1
+2025-02-09 10:18:45,632 - INFO -     Found property URL: https://www.propertygibraltar.com/property/detached-house-lord-napier-mews-10646?p=0
+2025-02-09 10:18:49,324 - INFO - Extracted market stats (for rent): {'4bed': 5500.0}
+2025-02-09 10:18:49,326 - INFO -     Inserted data for Lord Napier Mews
+2025-02-09 10:18:49,327 - INFO -   Processing development: Merlot House -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=62&off_plan=1&under_offer=1
+2025-02-09 10:18:52,359 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-merlot-house-13005?p=0
+2025-02-09 10:18:56,124 - INFO - Extracted market stats (for rent): {'3bed': 2200.0}
+2025-02-09 10:18:56,127 - INFO -     Inserted data for Merlot House
+2025-02-09 10:18:56,127 - INFO -   Processing development: Mount Road -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=66&off_plan=1&under_offer=1
+2025-02-09 10:18:58,432 - INFO -     Found property URL: https://www.propertygibraltar.com/property/penthouse-mount-road-11433?p=0
+2025-02-09 10:19:02,433 - INFO - Extracted market stats (for rent): {}
+2025-02-09 10:19:02,433 - INFO -     No rent market stats found for Mount Road. Skipping insertion.
+2025-02-09 10:19:02,434 - WARNING - No 'Residential To Let' link found for Mount View in South District.
+2025-02-09 10:19:02,434 - WARNING - No 'Residential To Let' link found for Naval Hospital Hill in South District.
+2025-02-09 10:19:02,434 - WARNING - No 'Residential To Let' link found for Nelson's View in South District.
+2025-02-09 10:19:02,435 - INFO -   Processing development: Plata Villa -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=75&off_plan=1&under_offer=1
+2025-02-09 10:19:05,861 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-plata-villa-10052?p=0
+2025-02-09 10:19:08,645 - INFO - Extracted market stats (for rent): {'3bed': 3450.0}
+2025-02-09 10:19:08,648 - INFO -     Inserted data for Plata Villa
+2025-02-09 10:19:08,649 - WARNING - No 'Residential To Let' link found for Rock Gardens in South District.
+2025-02-09 10:19:08,649 - WARNING - No 'Residential To Let' link found for Rosbay Court in South District.
+2025-02-09 10:19:08,650 - WARNING - No 'Residential To Let' link found for Rosia Court in South District.
+2025-02-09 10:19:08,651 - WARNING - No 'Residential To Let' link found for Rosia Dale in South District.
+2025-02-09 10:19:08,651 - WARNING - No 'Residential To Let' link found for Rosia Plaza in South District.
+2025-02-09 10:19:08,652 - WARNING - No 'Residential To Let' link found for South Barrack Mews in South District.
+2025-02-09 10:19:08,653 - INFO -   Processing development: South District -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=89&off_plan=1&under_offer=1
+2025-02-09 10:19:11,052 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-south-district-13240?p=0
+2025-02-09 10:19:15,041 - INFO - Extracted market stats (for rent): {'studio': 800.0, '2bed': 1800.0, '3bed': 2480.0, '4bed': 6320.0}
+2025-02-09 10:19:15,045 - INFO -     Inserted data for South District
+2025-02-09 10:19:15,045 - WARNING - No 'Residential To Let' link found for Straits View in South District.
+2025-02-09 10:19:15,046 - WARNING - No 'Residential To Let' link found for Sunnyside House in South District.
+2025-02-09 10:19:15,046 - WARNING - No 'Residential To Let' link found for Sunset Close in South District.
+2025-02-09 10:19:15,047 - INFO -   Processing development: The Anchorage -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=94&off_plan=1&under_offer=1
+2025-02-09 10:19:17,832 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-the-anchorage-13042?p=0
+2025-02-09 10:19:20,325 - INFO - Extracted market stats (for rent): {'1bed': 1800.0, '3bed': 3900.0, '4bed': 3908.0}
+2025-02-09 10:19:20,329 - INFO -     Inserted data for The Anchorage
+2025-02-09 10:19:20,329 - INFO -   Processing development: The Cliftons -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=96&off_plan=1&under_offer=1
+2025-02-09 10:19:24,440 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-the-cliftons-13292?p=0
+2025-02-09 10:19:28,329 - INFO - Extracted market stats (for rent): {'2bed': 2875.0}
+2025-02-09 10:19:28,333 - INFO -     Inserted data for The Cliftons
+2025-02-09 10:19:28,333 - WARNING - No 'Residential To Let' link found for The Mount in South District.
+2025-02-09 10:19:28,334 - WARNING - No 'Residential To Let' link found for The Sanctuary in South District.
+2025-02-09 10:19:28,334 - WARNING - No 'Residential To Let' link found for Vineyards in South District.
+2025-02-09 10:19:28,335 - WARNING - No 'Residential To Let' link found for Witham's Road in South District.
+2025-02-09 10:19:28,335 - WARNING - No 'Residential To Let' link found for New Harbours in South District.
+2025-02-09 10:19:28,335 - WARNING - No 'Residential To Let' link found for Cumberland Steps in South District.
+2025-02-09 10:19:28,336 - WARNING - No 'Residential To Let' link found for Rosia Steps in South District.
+2025-02-09 10:19:28,336 - WARNING - No 'Residential To Let' link found for Europa Point in South District.
+2025-02-09 10:19:28,336 - WARNING - No 'Residential To Let' link found for Sandpits Mews in South District.
+2025-02-09 10:19:28,337 - WARNING - No 'Residential To Let' link found for Scud Hill in South District.
+2025-02-09 10:19:28,337 - INFO -   Processing development: Old Brympton Close -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=150&off_plan=1&under_offer=1
+2025-02-09 10:19:31,212 - INFO -     Found property URL: https://www.propertygibraltar.com/property/townhouse-old-brympton-close-12749?p=0
+2025-02-09 10:19:34,635 - INFO - Extracted market stats (for rent): {'4bed': 3400.0}
+2025-02-09 10:19:34,639 - INFO -     Inserted data for Old Brympton Close
+2025-02-09 10:19:34,639 - WARNING - No 'Residential To Let' link found for Rosia Road in South District.
+2025-02-09 10:19:34,640 - WARNING - No 'Residential To Let' link found for Carlton House in South District.
+2025-02-09 10:19:34,640 - WARNING - No 'Residential To Let' link found for The Reserve in South District.
+2025-02-09 10:19:34,641 - WARNING - No 'Residential To Let' link found for North Gorge in South District.
+2025-02-09 10:19:34,641 - WARNING - No 'Residential To Let' link found for Europa Walks in South District.
+2025-02-09 10:19:34,641 - INFO - Processing district: Queensway (https://www.propertygibraltar.com/districts/queensway-gibraltar-5)
+2025-02-09 10:19:37,763 - INFO -   Processing development: Cormorant Wharf -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=29&off_plan=1&under_offer=1
+2025-02-09 10:19:40,722 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-cormorant-wharf-13274?p=0
+2025-02-09 10:19:44,633 - INFO - Extracted market stats (for rent): {'2bed': 2850.0}
+2025-02-09 10:19:44,636 - INFO -     Inserted data for Cormorant Wharf
+2025-02-09 10:19:44,637 - INFO -   Processing development: Kings Wharf Quay 27 -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=54&off_plan=1&under_offer=1
+2025-02-09 10:19:48,452 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-kings-wharf-quay-27-13541?p=0
+2025-02-09 10:19:51,129 - INFO - Extracted market stats (for rent): {'1bed': 2150.0, '2bed': 2300.0, '3bed': 4633.0}
+2025-02-09 10:19:51,133 - INFO -     Inserted data for Kings Wharf Quay 27
+2025-02-09 10:19:51,133 - INFO -   Processing development: Ordnance Wharf -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=73&off_plan=1&under_offer=1
+2025-02-09 10:19:54,756 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-ordnance-wharf-12984?p=0
+2025-02-09 10:19:57,226 - INFO - Extracted market stats (for rent): {'3bed': 4350.0}
+2025-02-09 10:19:57,230 - INFO -     Inserted data for Ordnance Wharf
+2025-02-09 10:19:57,231 - INFO -   Processing development: Quay 29 -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=78&off_plan=1&under_offer=1
+2025-02-09 10:19:59,856 - INFO -     Found property URL: https://www.propertygibraltar.com/property/studio-quay-29-13501?p=0
+2025-02-09 10:20:03,429 - INFO - Extracted market stats (for rent): {'studio': 1500.0, '3bed': 3700.0}
+2025-02-09 10:20:03,432 - INFO -     Inserted data for Quay 29
+2025-02-09 10:20:03,433 - INFO -   Processing development: Queensway Quay -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=79&off_plan=1&under_offer=1
+2025-02-09 10:20:05,942 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-queensway-quay-10933?p=0
+2025-02-09 10:20:10,625 - INFO - Extracted market stats (for rent): {'2bed': 3225.0, '3bed': 5000.0}
+2025-02-09 10:20:10,629 - INFO -     Inserted data for Queensway Quay
+2025-02-09 10:20:10,629 - WARNING - No 'Residential To Let' link found for Ragged Staff Wharf in Queensway.
+2025-02-09 10:20:10,630 - WARNING - No 'Residential To Let' link found for The Island in Queensway.
+2025-02-09 10:20:10,630 - WARNING - No 'Residential To Let' link found for The Sails in Queensway.
+2025-02-09 10:20:10,630 - WARNING - No 'Residential To Let' link found for Park View in Queensway.
+2025-02-09 10:20:10,631 - WARNING - No 'Residential To Let' link found for Quay 31 in Queensway.
+2025-02-09 10:20:10,631 - INFO - Processing district: Ocean Village (https://www.propertygibraltar.com/districts/ocean-village-gibraltar-6)
+2025-02-09 10:20:14,751 - INFO -   Processing development: Marina Bay -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=59&off_plan=1&under_offer=1
+2025-02-09 10:20:18,159 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-marina-bay-13427?p=0
+2025-02-09 10:20:21,255 - INFO - Extracted market stats (for rent): {'1bed': 1600.0, '2bed': 1900.0}
+2025-02-09 10:20:21,259 - INFO -     Inserted data for Marina Bay
+2025-02-09 10:20:21,260 - INFO -   Processing development: Marina Court -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=60&off_plan=1&under_offer=1
+2025-02-09 10:20:23,552 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-marina-court-13669?p=0
+2025-02-09 10:20:27,045 - INFO - Extracted market stats (for rent): {'3bed': 2250.0}
+2025-02-09 10:20:27,049 - INFO -     Inserted data for Marina Court
+2025-02-09 10:20:27,049 - WARNING - No 'Residential To Let' link found for Marina Views in Ocean Village.
+2025-02-09 10:20:27,050 - INFO -   Processing development: Ocean Village -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=72&off_plan=1&under_offer=1
+2025-02-09 10:20:31,250 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-ocean-village-10132?p=0
+2025-02-09 10:20:34,926 - INFO - Extracted market stats (for rent): {'1bed': 1350.0, '2bed': 3650.0, '3bed': 2950.0}
+2025-02-09 10:20:34,930 - INFO -     Inserted data for Ocean Village
+2025-02-09 10:20:34,931 - INFO -   Processing development: Portland House -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=76&off_plan=1&under_offer=1
+2025-02-09 10:20:38,231 - INFO -     Found property URL: https://www.propertygibraltar.com/property/duplex-portland-house-13199?p=0
+2025-02-09 10:20:40,857 - INFO - Extracted market stats (for rent): {'2bed': 2200.0, '3bed': 2550.0}
+2025-02-09 10:20:40,861 - INFO -     Inserted data for Portland House
+2025-02-09 10:20:40,861 - INFO -   Processing development: Tradewinds -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=102&off_plan=1&under_offer=1
+2025-02-09 10:20:44,407 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-tradewinds-13136?p=0
+2025-02-09 10:20:47,625 - INFO - Extracted market stats (for rent): {'1bed': 2017.0, '2bed': 2900.0, '3bed': 3500.0}
+2025-02-09 10:20:47,628 - INFO -     Inserted data for Tradewinds
+2025-02-09 10:20:47,629 - INFO -   Processing development: Watergardens -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=106&off_plan=1&under_offer=1
+2025-02-09 10:20:51,561 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-watergardens-13350?p=0
+2025-02-09 10:20:54,558 - INFO - Extracted market stats (for rent): {'1bed': 1317.0, '2bed': 1673.0}
+2025-02-09 10:20:54,561 - INFO -     Inserted data for Watergardens
+2025-02-09 10:20:54,561 - WARNING - No 'Residential To Let' link found for World Trade Center in Ocean Village.
+2025-02-09 10:20:54,562 - INFO -   Processing development: Royal Ocean Plaza -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=139&off_plan=1&under_offer=1
+2025-02-09 10:20:58,534 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-royal-ocean-plaza-13654?p=0
+2025-02-09 10:21:01,258 - INFO - Extracted market stats (for rent): {'1bed': 1950.0, '2bed': 2300.0, '3bed': 3080.0}
+2025-02-09 10:21:01,318 - INFO -     Inserted data for Royal Ocean Plaza
+2025-02-09 10:21:01,318 - INFO -   Processing development: Grand Ocean Plaza -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=140&off_plan=1&under_offer=1
+2025-02-09 10:21:04,553 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-grand-ocean-plaza-10686?b=339p=0
+2025-02-09 10:21:07,434 - INFO - Extracted market stats (for rent): {'2bed': 2475.0, '3bed': 2950.0}
+2025-02-09 10:21:07,437 - INFO -     Inserted data for Grand Ocean Plaza
+2025-02-09 10:21:07,438 - INFO -   Processing development: Majestic Ocean Plaza -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=141&off_plan=1&under_offer=1
+2025-02-09 10:21:09,859 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-majestic-ocean-plaza-12667?b=420p=0
+2025-02-09 10:21:12,550 - INFO - Extracted market stats (for rent): {'2bed': 2180.0}
+2025-02-09 10:21:12,553 - INFO -     Inserted data for Majestic Ocean Plaza
+2025-02-09 10:21:12,554 - INFO -   Processing development: Ocean Spa Plaza -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=142&off_plan=1&under_offer=1
+2025-02-09 10:21:14,952 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-ocean-spa-plaza-12807?p=0
+2025-02-09 10:21:19,140 - INFO - Extracted market stats (for rent): {'studio': 1400.0, '1bed': 1741.0, '2bed': 2610.0, '3bed': 6250.0}
+2025-02-09 10:21:19,144 - INFO -     Inserted data for Ocean Spa Plaza
+2025-02-09 10:21:19,144 - INFO -   Processing development: Imperial Ocean Plaza -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=143&off_plan=1&under_offer=1
+2025-02-09 10:21:22,818 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-imperial-ocean-plaza-13566?p=0
+2025-02-09 10:21:26,928 - INFO - Extracted market stats (for rent): {'studio': 1350.0, '1bed': 1800.0, '2bed': 3750.0}
+2025-02-09 10:21:26,932 - INFO -     Inserted data for Imperial Ocean Plaza
+2025-02-09 10:21:26,932 - WARNING - No 'Residential To Let' link found for Garden Mews in Ocean Village.
+2025-02-09 10:21:26,933 - WARNING - No 'Residential To Let' link found for Leisure Island Business Centre in Ocean Village.
+2025-02-09 10:21:26,933 - INFO -   Processing development: Marina Club -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=158&off_plan=1&under_offer=1
+2025-02-09 10:21:31,136 - INFO -     Found property URL: https://www.propertygibraltar.com/property/studio-marina-club-13629?p=0
+2025-02-09 10:21:34,551 - INFO - Extracted market stats (for rent): {'studio': 1450.0, '1bed': 2263.0, '2bed': 2425.0, '3bed': 4410.0}
+2025-02-09 10:21:34,556 - INFO -     Inserted data for Marina Club
+2025-02-09 10:21:34,556 - WARNING - No 'Residential To Let' link found for Bayside Central in Ocean Village.
+2025-02-09 10:21:34,557 - WARNING - No 'Residential To Let' link found for Glacis Road in Ocean Village.
+2025-02-09 10:21:34,557 - INFO - Processing district: Upper Town (https://www.propertygibraltar.com/districts/upper-town-gibraltar-7)
+2025-02-09 10:21:37,201 - INFO -   Processing development: Barley Hill House -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=10&off_plan=1&under_offer=1
+2025-02-09 10:21:39,573 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-barley-hill-house-13200?p=0
+2025-02-09 10:21:42,058 - INFO - Extracted market stats (for rent): {'3bed': 1800.0}
+2025-02-09 10:21:42,062 - INFO -     Inserted data for Barley Hill House
+2025-02-09 10:21:42,062 - WARNING - No 'Residential To Let' link found for Bourne Place in Upper Town.
+2025-02-09 10:21:42,063 - WARNING - No 'Residential To Let' link found for Prince Edward's Road in Upper Town.
+2025-02-09 10:21:42,063 - WARNING - No 'Residential To Let' link found for Tarik Views in Upper Town.
+2025-02-09 10:21:42,064 - INFO -   Processing development: The Arches -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=95&off_plan=1&under_offer=1
+2025-02-09 10:21:45,017 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-the-arches-13608?p=0
+2025-02-09 10:21:48,556 - INFO - Extracted market stats (for rent): {'2bed': 1650.0}
+2025-02-09 10:21:48,560 - INFO -     Inserted data for The Arches
+2025-02-09 10:21:48,560 - INFO -   Processing development: Upper Town -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=104&off_plan=1&under_offer=1
+2025-02-09 10:21:52,262 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-upper-town-13561?p=0
+2025-02-09 10:21:54,919 - INFO - Extracted market stats (for rent): {'1bed': 1150.0, '2bed': 1470.0}
+2025-02-09 10:21:54,922 - INFO -     Inserted data for Upper Town
+2025-02-09 10:21:54,923 - INFO -   Processing development: Arengos Gardens -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=119&off_plan=1&under_offer=1
+2025-02-09 10:21:58,049 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-arengos-gardens-11972?b=366p=1
+2025-02-09 10:22:02,336 - INFO - Extracted market stats (for rent): {'1bed': 1238.0, '2bed': 2313.0, '3bed': 3332.0}
+2025-02-09 10:22:02,340 - INFO -     Inserted data for Arengos Gardens
+2025-02-09 10:22:02,341 - WARNING - No 'Residential To Let' link found for Prince Edward's Gate in Upper Town.
+2025-02-09 10:22:02,341 - WARNING - No 'Residential To Let' link found for Sanderson Suites in Upper Town.
+2025-02-09 10:22:02,342 - INFO -   Processing development: Sylvian Suites -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=133&off_plan=1&under_offer=1
+2025-02-09 10:22:05,993 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-sylvian-suites-13201?p=0
+2025-02-09 10:22:09,228 - INFO - Extracted market stats (for rent): {'1bed': 1150.0}
+2025-02-09 10:22:09,232 - INFO -     Inserted data for Sylvian Suites
+2025-02-09 10:22:09,232 - WARNING - No 'Residential To Let' link found for The Quarters in Upper Town.
+2025-02-09 10:22:09,233 - WARNING - No 'Residential To Let' link found for Bado's Gardens in Upper Town.
+2025-02-09 10:22:09,233 - WARNING - No 'Residential To Let' link found for Libra in Upper Town.
+2025-02-09 10:22:09,233 - WARNING - No 'Residential To Let' link found for Green Lane in Upper Town.
+2025-02-09 10:22:09,234 - INFO - Scraping completed
+2025-02-09 10:36:13,687 - INFO - Processing district: Westside (https://www.propertygibraltar.com/districts/westside-gibraltar-1)
+2025-02-09 10:36:16,019 - INFO -   Processing development: Atlantic Suites -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=8&off_plan=1&under_offer=1
+2025-02-09 10:36:18,666 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-atlantic-suites-13529?p=0
+2025-02-09 10:36:21,536 - INFO - Extracted rent market stats: {'studio': 1161.0, '1bed': 1875.0, '2bed': 2850.0}
+2025-02-09 10:36:21,539 - INFO -     Inserted data for Atlantic Suites
+2025-02-09 10:36:21,540 - INFO -   Processing development: Europlaza -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=42&off_plan=1&under_offer=1
+2025-02-09 10:36:24,311 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-europlaza-12676?p=0
+2025-02-09 10:36:28,333 - INFO - Extracted rent market stats: {'2bed': 1675.0, '4bed': 4250.0}
+2025-02-09 10:36:28,337 - INFO -     Inserted data for Europlaza
+2025-02-09 10:36:28,338 - INFO -   Processing development: Eurotowers -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=43&off_plan=1&under_offer=1
+2025-02-09 10:36:31,446 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-eurotowers-13259?p=0
+2025-02-09 10:36:34,246 - INFO - Extracted rent market stats: {'1bed': 1319.0, '3bed': 1950.0}
+2025-02-09 10:36:34,249 - INFO -     Inserted data for Eurotowers
+2025-02-09 10:36:34,250 - WARNING - No 'Residential To Let' link found for Harbour Views in Westside.
+2025-02-09 10:36:34,250 - WARNING - No 'Residential To Let' link found for Montagu Crescent in Westside.
+2025-02-09 10:36:34,251 - WARNING - No 'Residential To Let' link found for Montagu Gardens in Westside.
+2025-02-09 10:36:34,252 - INFO -   Processing development: Peninsular Heights -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=74&off_plan=1&under_offer=1
+2025-02-09 10:36:37,643 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-peninsular-heights-13471?p=0
+2025-02-09 10:36:40,728 - INFO - Extracted rent market stats: {'3bed': 1750.0}
+2025-02-09 10:36:40,732 - INFO -     Inserted data for Peninsular Heights
+2025-02-09 10:36:40,733 - WARNING - No 'Residential To Let' link found for Sir William Jackson Grove in Westside.
+2025-02-09 10:36:40,733 - WARNING - No 'Residential To Let' link found for Waterport Place in Westside.
+2025-02-09 10:36:40,734 - WARNING - No 'Residential To Let' link found for Waterport Terraces in Westside.
+2025-02-09 10:36:40,734 - INFO -   Processing development: West One, Eurotowers -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=110&off_plan=1&under_offer=1
+2025-02-09 10:36:43,824 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-west-one-eurotowers-13327?p=0
+2025-02-09 10:36:47,329 - INFO - Extracted rent market stats: {'studio': 950.0, '2bed': 1850.0}
+2025-02-09 10:36:47,336 - INFO -     Inserted data for West One, Eurotowers
+2025-02-09 10:36:47,337 - INFO -   Processing development: West Side -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=111&off_plan=1&under_offer=1
+2025-02-09 10:36:50,005 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-west-side-9324?p=0
+2025-02-09 10:36:54,038 - INFO - Extracted rent market stats: {'studio': 975.0, '1bed': 1300.0, '3bed': 3150.0}
+2025-02-09 10:36:54,042 - INFO -     Inserted data for West Side
+2025-02-09 10:36:54,043 - WARNING - No 'Residential To Let' link found for Westview Park in Westside.
+2025-02-09 10:36:54,043 - WARNING - No 'Residential To Let' link found for EuroCity in Westside.
+2025-02-09 10:36:54,043 - WARNING - No 'Residential To Let' link found for Mons Calpe Mews in Westside.
+2025-02-09 10:36:54,044 - WARNING - No 'Residential To Let' link found for North Mole Road in Westside.
+2025-02-09 10:36:54,044 - INFO - Processing district: Eastside (https://www.propertygibraltar.com/districts/eastside-gibraltar-2)
+2025-02-09 10:36:57,065 - INFO -   Processing development: Both Worlds -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=13&off_plan=1&under_offer=1
+2025-02-09 10:37:00,356 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-both-worlds-12803?p=0
+2025-02-09 10:37:03,647 - INFO - Extracted rent market stats: {'1bed': 1150.0}
+2025-02-09 10:37:03,651 - INFO -     Inserted data for Both Worlds
+2025-02-09 10:37:03,651 - WARNING - No 'Residential To Let' link found for Carltree House in Eastside.
+2025-02-09 10:37:03,652 - INFO -   Processing development: Catalan Bay -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=22&off_plan=1&under_offer=1
+2025-02-09 10:37:05,942 - INFO -     Found property URL: https://www.propertygibraltar.com/property/maisonette-catalan-bay-10542?p=0
+2025-02-09 10:37:08,837 - INFO - Extracted rent market stats: {'1bed': 2000.0}
+2025-02-09 10:37:08,842 - INFO -     Inserted data for Catalan Bay
+2025-02-09 10:37:08,842 - WARNING - No 'Residential To Let' link found for Catalan Gardens in Eastside.
+2025-02-09 10:37:08,843 - INFO -   Processing development: Clemence Suites -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=25&off_plan=1&under_offer=1
+2025-02-09 10:37:11,739 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-clemence-suites-13431?p=0
+2025-02-09 10:37:15,637 - INFO - Extracted rent market stats: {'1bed': 1600.0, '2bed': 2350.0}
+2025-02-09 10:37:15,640 - INFO -     Inserted data for Clemence Suites
+2025-02-09 10:37:15,641 - WARNING - No 'Residential To Let' link found for Devil's Tower Road in Eastside.
+2025-02-09 10:37:15,641 - INFO -   Processing development: East Side -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=36&off_plan=1&under_offer=1
+2025-02-09 10:37:17,854 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-east-side-13508?p=0
+2025-02-09 10:37:20,529 - INFO - Extracted rent market stats: {}
+2025-02-09 10:37:20,529 - INFO -     No rent market stats found for East Side. Skipping insertion.
+2025-02-09 10:37:20,530 - WARNING - No 'Residential To Let' link found for Eaton Park in Eastside.
+2025-02-09 10:37:20,530 - INFO -   Processing development: Filomena House -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=44&off_plan=1&under_offer=1
+2025-02-09 10:37:23,726 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-filomena-house-13112?p=0
+2025-02-09 10:37:27,629 - INFO - Extracted rent market stats: {'2bed': 1795.0}
+2025-02-09 10:37:27,633 - INFO -     Inserted data for Filomena House
+2025-02-09 10:37:27,633 - WARNING - No 'Residential To Let' link found for Little Genoa in Eastside.
+2025-02-09 10:37:27,634 - INFO -   Processing development: Northview Terrace -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=70&off_plan=1&under_offer=1
+2025-02-09 10:37:30,428 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-northview-terrace-13097?p=0
+2025-02-09 10:37:33,431 - INFO - Extracted rent market stats: {'2bed': 1300.0}
+2025-02-09 10:37:33,433 - INFO -     Inserted data for Northview Terrace
+2025-02-09 10:37:33,434 - WARNING - No 'Residential To Let' link found for Shackleton House in Eastside.
+2025-02-09 10:37:33,435 - WARNING - No 'Residential To Let' link found for Wellington Court in Eastside.
+2025-02-09 10:37:33,435 - INFO -   Processing development: The Hub -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=121&off_plan=1&under_offer=1
+2025-02-09 10:37:35,949 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-the-hub-12835?p=0
+2025-02-09 10:37:38,626 - INFO - Extracted rent market stats: {'studio': 951.0}
+2025-02-09 10:37:38,630 - INFO -     Inserted data for The Hub
+2025-02-09 10:37:38,631 - INFO -   Processing development: Forbes -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=128&off_plan=1&under_offer=1
+2025-02-09 10:37:42,157 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-forbes-9710?p=0
+2025-02-09 10:37:45,528 - INFO - Extracted rent market stats: {'2bed': 2607.0, '3bed': 2950.0}
+2025-02-09 10:37:45,530 - INFO -     Inserted data for Forbes
+2025-02-09 10:37:45,531 - INFO -   Processing development: E1 -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=129&off_plan=1&under_offer=1
+2025-02-09 10:37:49,136 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-e1-6772?b=143p=1
+2025-02-09 10:37:53,675 - INFO - Extracted rent market stats: {'studio': 1149.0, '1bed': 1425.0, '2bed': 3625.0}
+2025-02-09 10:37:53,717 - INFO -     Inserted data for E1
+2025-02-09 10:37:53,718 - WARNING - No 'Residential To Let' link found for Beach View Terraces in Eastside.
+2025-02-09 10:37:53,718 - WARNING - No 'Residential To Let' link found for Sunrise View in Eastside.
+2025-02-09 10:37:53,718 - WARNING - No 'Residential To Let' link found for Riviera Mews in Eastside.
+2025-02-09 10:37:53,719 - WARNING - No 'Residential To Let' link found for CitiHome in Eastside.
+2025-02-09 10:37:53,719 - WARNING - No 'Residential To Let' link found for Eastside Development in Eastside.
+2025-02-09 10:37:53,719 - WARNING - No 'Residential To Let' link found for One Bayside in Eastside.
+2025-02-09 10:37:53,720 - WARNING - No 'Residential To Let' link found for Monument Place & Monument Plaza in Eastside.
+2025-02-09 10:37:53,720 - WARNING - No 'Residential To Let' link found for Keystone Residence in Eastside.
+2025-02-09 10:37:53,720 - INFO - Processing district: Town Area (https://www.propertygibraltar.com/districts/town-area-gibraltar-3)
+2025-02-09 10:37:57,629 - WARNING - No 'Residential To Let' link found for Bell Lane in Town Area.
+2025-02-09 10:37:57,629 - WARNING - No 'Residential To Let' link found for Cannon Lane in Town Area.
+2025-02-09 10:37:57,630 - WARNING - No 'Residential To Let' link found for Casemates Square in Town Area.
+2025-02-09 10:37:57,630 - WARNING - No 'Residential To Let' link found for City Mill Lane in Town Area.
+2025-02-09 10:37:57,630 - WARNING - No 'Residential To Let' link found for Close Main Street in Town Area.
+2025-02-09 10:37:57,631 - WARNING - No 'Residential To Let' link found for College Lane in Town Area.
+2025-02-09 10:37:57,631 - WARNING - No 'Residential To Let' link found for Cornwall's Parade in Town Area.
+2025-02-09 10:37:57,632 - WARNING - No 'Residential To Let' link found for Cornwall's Centre in Town Area.
+2025-02-09 10:37:57,632 - INFO -   Processing development: Cornwall's Lane -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=32&off_plan=1&under_offer=1
+2025-02-09 10:38:00,088 - INFO -     Found property URL: https://www.propertygibraltar.com/property/studio-cornwalls-lane-13237?p=0
+2025-02-09 10:38:03,661 - INFO - Extracted rent market stats: {}
+2025-02-09 10:38:03,662 - INFO -     No rent market stats found for Cornwall's Lane. Skipping insertion.
+2025-02-09 10:38:03,662 - INFO -   Processing development: Flat Bastion Road -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=45&off_plan=1&under_offer=1
+2025-02-09 10:38:06,295 - INFO -     Found property URL: https://www.propertygibraltar.com/property/duplex-flat-bastion-road-13625?p=0
+2025-02-09 10:38:09,833 - INFO - Extracted rent market stats: {}
+2025-02-09 10:38:09,833 - INFO -     No rent market stats found for Flat Bastion Road. Skipping insertion.
+2025-02-09 10:38:09,833 - INFO -   Processing development: Gardiner's Road -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=46&off_plan=1&under_offer=1
+2025-02-09 10:38:12,042 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-gardiners-road-7151?p=0
+2025-02-09 10:38:15,124 - INFO - Extracted rent market stats: {'3bed': 2750.0}
+2025-02-09 10:38:15,126 - INFO -     Inserted data for Gardiner's Road
+2025-02-09 10:38:15,127 - INFO -   Processing development: Gardiner's View -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=47&off_plan=1&under_offer=1
+2025-02-09 10:38:18,327 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-gardiners-view-13293?p=0
+2025-02-09 10:38:20,836 - INFO - Extracted rent market stats: {'1bed': 1200.0}
+2025-02-09 10:38:20,840 - INFO -     Inserted data for Gardiner's View
+2025-02-09 10:38:20,840 - WARNING - No 'Residential To Let' link found for Gibraltar Heights in Town Area.
+2025-02-09 10:38:20,841 - WARNING - No 'Residential To Let' link found for Governor's Street in Town Area.
+2025-02-09 10:38:20,841 - INFO -   Processing development: Lynch's Lane -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=57&off_plan=1&under_offer=1
+2025-02-09 10:38:24,398 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-lynchs-lane-13534?p=0
+2025-02-09 10:38:27,550 - INFO - Extracted rent market stats: {}
+2025-02-09 10:38:27,551 - INFO -     No rent market stats found for Lynch's Lane. Skipping insertion.
+2025-02-09 10:38:27,551 - INFO -   Processing development: Main Street -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=58&off_plan=1&under_offer=1
+2025-02-09 10:38:30,025 - INFO -     Found property URL: https://www.propertygibraltar.com/property/studio-main-street-13668?p=0
+2025-02-09 10:38:33,134 - INFO - Extracted rent market stats: {'studio': 700.0, '1bed': 1325.0, '2bed': 1688.0, '3bed': 3000.0}
+2025-02-09 10:38:33,137 - INFO -     Inserted data for Main Street
+2025-02-09 10:38:33,137 - INFO -   Processing development: Midtown -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=63&off_plan=1&under_offer=1
+2025-02-09 10:38:36,019 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-midtown-13627?p=0
+2025-02-09 10:38:40,029 - INFO - Extracted rent market stats: {'1bed': 2100.0, '2bed': 3300.0, '3bed': 5000.0}
+2025-02-09 10:38:40,031 - INFO -     Inserted data for Midtown
+2025-02-09 10:38:40,032 - INFO -   Processing development: Ocean Heights -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=71&off_plan=1&under_offer=1
+2025-02-09 10:38:43,077 - INFO -     Found property URL: https://www.propertygibraltar.com/property/studio-ocean-heights-12996?p=0
+2025-02-09 10:38:47,058 - INFO - Extracted rent market stats: {'studio': 840.0, '1bed': 1025.0}
+2025-02-09 10:38:47,060 - INFO -     Inserted data for Ocean Heights
+2025-02-09 10:38:47,061 - INFO -   Processing development: Town Area -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=101&off_plan=1&under_offer=1
+2025-02-09 10:38:49,735 - INFO -     Found property URL: https://www.propertygibraltar.com/property/studio-town-area-13526?p=0
+2025-02-09 10:38:53,929 - INFO - Extracted rent market stats: {'studio': 880.0, '1bed': 1224.0, '2bed': 1887.0, '3bed': 3263.0, '4bed': 4211.0}
+2025-02-09 10:38:53,932 - INFO -     Inserted data for Town Area
+2025-02-09 10:38:53,933 - INFO -   Processing development: Trafalgar House -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=103&off_plan=1&under_offer=1
+2025-02-09 10:38:56,821 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-trafalgar-house-7686?p=0
+2025-02-09 10:39:00,333 - INFO - Extracted rent market stats: {'4bed': 3577.0}
+2025-02-09 10:39:00,336 - INFO -     Inserted data for Trafalgar House
+2025-02-09 10:39:00,336 - WARNING - No 'Residential To Let' link found for Pitman's Court in Town Area.
+2025-02-09 10:39:00,337 - WARNING - No 'Residential To Let' link found for King's Street in Town Area.
+2025-02-09 10:39:00,338 - INFO -   Processing development: George's Lane -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=118&off_plan=1&under_offer=1
+2025-02-09 10:39:02,655 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-georges-lane-12721?p=0
+2025-02-09 10:39:05,052 - INFO - Extracted rent market stats: {}
+2025-02-09 10:39:05,052 - INFO -     No rent market stats found for George's Lane. Skipping insertion.
+2025-02-09 10:39:05,052 - WARNING - No 'Residential To Let' link found for Benzimras Alley in Town Area.
+2025-02-09 10:39:05,053 - WARNING - No 'Residential To Let' link found for Continental Suites in Town Area.
+2025-02-09 10:39:05,053 - WARNING - No 'Residential To Let' link found for Governor's Parade in Town Area.
+2025-02-09 10:39:05,053 - INFO -   Processing development: The Residence -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=132&off_plan=1&under_offer=1
+2025-02-09 10:39:07,630 - INFO -     Found property URL: https://www.propertygibraltar.com/property/studio-the-residence-10101?p=0
+2025-02-09 10:39:12,134 - INFO - Extracted rent market stats: {'studio': 1008.0, '1bed': 975.0, '2bed': 1913.0}
+2025-02-09 10:39:12,138 - INFO -     Inserted data for The Residence
+2025-02-09 10:39:12,138 - WARNING - No 'Residential To Let' link found for King's Yard Lane in Town Area.
+2025-02-09 10:39:12,139 - INFO -   Processing development: 269 Main Street -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=151&off_plan=1&under_offer=1
+2025-02-09 10:39:15,624 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-269-main-street-13405?p=0
+2025-02-09 10:39:19,861 - INFO - Extracted rent market stats: {'1bed': 1483.0}
+2025-02-09 10:39:19,865 - INFO -     Inserted data for 269 Main Street
+2025-02-09 10:39:19,866 - WARNING - No 'Residential To Let' link found for The Hargrave in Town Area.
+2025-02-09 10:39:19,915 - WARNING - No 'Residential To Let' link found for La Maison Rouge in Town Area.
+2025-02-09 10:39:19,915 - WARNING - No 'Residential To Let' link found for Regency Plaza in Town Area.
+2025-02-09 10:39:19,916 - WARNING - No 'Residential To Let' link found for Turnbull's Lane in Town Area.
+2025-02-09 10:39:19,916 - WARNING - No 'Residential To Let' link found for Midtown Hudson in Town Area.
+2025-02-09 10:39:19,916 - WARNING - No 'Residential To Let' link found for Midtown Liberty in Town Area.
+2025-02-09 10:39:19,916 - INFO - Processing district: South District (https://www.propertygibraltar.com/districts/south-district-gibraltar-4)
+2025-02-09 10:39:22,634 - WARNING - No 'Residential To Let' link found for Admiral's Place in South District.
+2025-02-09 10:39:22,634 - WARNING - No 'Residential To Let' link found for Bayview Terraces in South District.
+2025-02-09 10:39:22,635 - WARNING - No 'Residential To Let' link found for Brympton in South District.
+2025-02-09 10:39:22,635 - WARNING - No 'Residential To Let' link found for Buena Vista Mews in South District.
+2025-02-09 10:39:22,636 - INFO -   Processing development: Buena Vista Park Villas -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=17&off_plan=1&under_offer=1
+2025-02-09 10:39:26,531 - INFO -     Found property URL: https://www.propertygibraltar.com/property/detached-house-buena-vista-park-villas-13591?p=0
+2025-02-09 10:39:29,136 - INFO - Extracted rent market stats: {'4bed': 9000.0}
+2025-02-09 10:39:29,140 - INFO -     Inserted data for Buena Vista Park Villas
+2025-02-09 10:39:29,140 - INFO -   Processing development: Buena Vista Road -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=18&off_plan=1&under_offer=1
+2025-02-09 10:39:33,101 - INFO -     Found property URL: https://www.propertygibraltar.com/property/detached-house-buena-vista-road-13294?p=0
+2025-02-09 10:39:35,619 - INFO - Extracted rent market stats: {'3bed': 6500.0}
+2025-02-09 10:39:35,624 - INFO -     Inserted data for Buena Vista Road
+2025-02-09 10:39:35,625 - WARNING - No 'Residential To Let' link found for Clifftop House in South District.
+2025-02-09 10:39:35,626 - INFO -   Processing development: Cumberland Road -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=33&off_plan=1&under_offer=1
+2025-02-09 10:39:38,457 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-cumberland-road-13647?p=0
+2025-02-09 10:39:41,726 - INFO - Extracted rent market stats: {'2bed': 1300.0}
+2025-02-09 10:39:41,730 - INFO -     Inserted data for Cumberland Road
+2025-02-09 10:39:41,731 - WARNING - No 'Residential To Let' link found for Cumberland Terraces in South District.
+2025-02-09 10:39:41,731 - WARNING - No 'Residential To Let' link found for Edward House in South District.
+2025-02-09 10:39:41,731 - WARNING - No 'Residential To Let' link found for Elliot's Battery in South District.
+2025-02-09 10:39:41,733 - WARNING - No 'Residential To Let' link found for Europa Mews in South District.
+2025-02-09 10:39:41,734 - WARNING - No 'Residential To Let' link found for Europa Road in South District.
+2025-02-09 10:39:41,734 - WARNING - No 'Residential To Let' link found for Genista House in South District.
+2025-02-09 10:39:41,735 - INFO -   Processing development: Highcliffe House -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=52&off_plan=1&under_offer=1
+2025-02-09 10:39:45,479 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-highcliffe-house-12873?p=0
+2025-02-09 10:39:48,018 - INFO - Extracted rent market stats: {'2bed': 2950.0}
+2025-02-09 10:39:48,022 - INFO -     Inserted data for Highcliffe House
+2025-02-09 10:39:48,023 - WARNING - No 'Residential To Let' link found for Jumpers in South District.
+2025-02-09 10:39:48,024 - INFO -   Processing development: Lord Napier Mews -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=56&off_plan=1&under_offer=1
+2025-02-09 10:39:50,344 - INFO -     Found property URL: https://www.propertygibraltar.com/property/detached-house-lord-napier-mews-10646?p=0
+2025-02-09 10:39:54,134 - INFO - Extracted rent market stats: {'4bed': 5500.0}
+2025-02-09 10:39:54,138 - INFO -     Inserted data for Lord Napier Mews
+2025-02-09 10:39:54,138 - INFO -   Processing development: Merlot House -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=62&off_plan=1&under_offer=1
+2025-02-09 10:39:57,703 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-merlot-house-13005?p=0
+2025-02-09 10:40:00,225 - INFO - Extracted rent market stats: {'3bed': 2200.0}
+2025-02-09 10:40:00,228 - INFO -     Inserted data for Merlot House
+2025-02-09 10:40:00,229 - INFO -   Processing development: Mount Road -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=66&off_plan=1&under_offer=1
+2025-02-09 10:40:04,107 - INFO -     Found property URL: https://www.propertygibraltar.com/property/penthouse-mount-road-11433?p=0
+2025-02-09 10:40:06,837 - INFO - Extracted rent market stats: {}
+2025-02-09 10:40:06,837 - INFO -     No rent market stats found for Mount Road. Skipping insertion.
+2025-02-09 10:40:06,837 - WARNING - No 'Residential To Let' link found for Mount View in South District.
+2025-02-09 10:40:06,838 - WARNING - No 'Residential To Let' link found for Naval Hospital Hill in South District.
+2025-02-09 10:40:06,838 - WARNING - No 'Residential To Let' link found for Nelson's View in South District.
+2025-02-09 10:40:06,839 - INFO -   Processing development: Plata Villa -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=75&off_plan=1&under_offer=1
+2025-02-09 10:40:09,760 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-plata-villa-10052?p=0
+2025-02-09 10:40:13,835 - INFO - Extracted rent market stats: {'3bed': 3450.0}
+2025-02-09 10:40:13,840 - INFO -     Inserted data for Plata Villa
+2025-02-09 10:40:13,841 - WARNING - No 'Residential To Let' link found for Rock Gardens in South District.
+2025-02-09 10:40:13,842 - WARNING - No 'Residential To Let' link found for Rosbay Court in South District.
+2025-02-09 10:40:13,842 - WARNING - No 'Residential To Let' link found for Rosia Court in South District.
+2025-02-09 10:40:13,843 - WARNING - No 'Residential To Let' link found for Rosia Dale in South District.
+2025-02-09 10:40:13,844 - WARNING - No 'Residential To Let' link found for Rosia Plaza in South District.
+2025-02-09 10:40:13,845 - WARNING - No 'Residential To Let' link found for South Barrack Mews in South District.
+2025-02-09 10:40:13,847 - INFO -   Processing development: South District -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=89&off_plan=1&under_offer=1
+2025-02-09 10:40:16,738 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-south-district-13240?p=0
+2025-02-09 10:40:20,327 - INFO - Extracted rent market stats: {'studio': 800.0, '2bed': 1800.0, '3bed': 2480.0, '4bed': 6320.0}
+2025-02-09 10:40:20,329 - INFO -     Inserted data for South District
+2025-02-09 10:40:20,330 - WARNING - No 'Residential To Let' link found for Straits View in South District.
+2025-02-09 10:40:20,330 - WARNING - No 'Residential To Let' link found for Sunnyside House in South District.
+2025-02-09 10:40:20,331 - WARNING - No 'Residential To Let' link found for Sunset Close in South District.
+2025-02-09 10:40:20,331 - INFO -   Processing development: The Anchorage -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=94&off_plan=1&under_offer=1
+2025-02-09 10:40:23,339 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-the-anchorage-13042?p=0
+2025-02-09 10:40:26,620 - INFO - Extracted rent market stats: {'1bed': 1800.0, '3bed': 3900.0, '4bed': 3908.0}
+2025-02-09 10:40:26,623 - INFO -     Inserted data for The Anchorage
+2025-02-09 10:40:26,624 - INFO -   Processing development: The Cliftons -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=96&off_plan=1&under_offer=1
+2025-02-09 10:40:30,048 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-the-cliftons-13292?p=0
+2025-02-09 10:40:32,515 - INFO - Extracted rent market stats: {'2bed': 2875.0}
+2025-02-09 10:40:32,520 - INFO -     Inserted data for The Cliftons
+2025-02-09 10:40:32,520 - WARNING - No 'Residential To Let' link found for The Mount in South District.
+2025-02-09 10:40:32,521 - WARNING - No 'Residential To Let' link found for The Sanctuary in South District.
+2025-02-09 10:40:32,521 - WARNING - No 'Residential To Let' link found for Vineyards in South District.
+2025-02-09 10:40:32,522 - WARNING - No 'Residential To Let' link found for Witham's Road in South District.
+2025-02-09 10:40:32,523 - WARNING - No 'Residential To Let' link found for New Harbours in South District.
+2025-02-09 10:40:32,524 - WARNING - No 'Residential To Let' link found for Cumberland Steps in South District.
+2025-02-09 10:40:32,524 - WARNING - No 'Residential To Let' link found for Rosia Steps in South District.
+2025-02-09 10:40:32,524 - WARNING - No 'Residential To Let' link found for Europa Point in South District.
+2025-02-09 10:40:32,525 - WARNING - No 'Residential To Let' link found for Sandpits Mews in South District.
+2025-02-09 10:40:32,525 - WARNING - No 'Residential To Let' link found for Scud Hill in South District.
+2025-02-09 10:40:32,526 - INFO -   Processing development: Old Brympton Close -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=150&off_plan=1&under_offer=1
+2025-02-09 10:40:36,447 - INFO -     Found property URL: https://www.propertygibraltar.com/property/townhouse-old-brympton-close-12749?p=0
+2025-02-09 10:40:40,736 - INFO - Extracted rent market stats: {'4bed': 3400.0}
+2025-02-09 10:40:40,741 - INFO -     Inserted data for Old Brympton Close
+2025-02-09 10:40:40,741 - WARNING - No 'Residential To Let' link found for Rosia Road in South District.
+2025-02-09 10:40:40,742 - WARNING - No 'Residential To Let' link found for Carlton House in South District.
+2025-02-09 10:40:40,742 - WARNING - No 'Residential To Let' link found for The Reserve in South District.
+2025-02-09 10:40:40,742 - WARNING - No 'Residential To Let' link found for North Gorge in South District.
+2025-02-09 10:40:40,743 - WARNING - No 'Residential To Let' link found for Europa Walks in South District.
+2025-02-09 10:40:40,743 - INFO - Processing district: Queensway (https://www.propertygibraltar.com/districts/queensway-gibraltar-5)
+2025-02-09 10:40:44,925 - INFO -   Processing development: Cormorant Wharf -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=29&off_plan=1&under_offer=1
+2025-02-09 10:40:49,137 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-cormorant-wharf-13274?p=0
+2025-02-09 10:40:52,714 - INFO - Extracted rent market stats: {'2bed': 2850.0}
+2025-02-09 10:40:52,718 - INFO -     Inserted data for Cormorant Wharf
+2025-02-09 10:40:52,719 - INFO -   Processing development: Kings Wharf Quay 27 -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=54&off_plan=1&under_offer=1
+2025-02-09 10:40:56,450 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-kings-wharf-quay-27-13541?p=0
+2025-02-09 10:41:00,523 - INFO - Extracted rent market stats: {'1bed': 2150.0, '2bed': 2300.0, '3bed': 4633.0}
+2025-02-09 10:41:00,527 - INFO -     Inserted data for Kings Wharf Quay 27
+2025-02-09 10:41:00,528 - INFO -   Processing development: Ordnance Wharf -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=73&off_plan=1&under_offer=1
+2025-02-09 10:41:02,983 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-ordnance-wharf-12984?p=0
+2025-02-09 10:41:05,340 - INFO - Extracted rent market stats: {'3bed': 4350.0}
+2025-02-09 10:41:05,344 - INFO -     Inserted data for Ordnance Wharf
+2025-02-09 10:41:05,345 - INFO -   Processing development: Quay 29 -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=78&off_plan=1&under_offer=1
+2025-02-09 10:41:08,046 - INFO -     Found property URL: https://www.propertygibraltar.com/property/studio-quay-29-13501?p=0
+2025-02-09 10:41:10,751 - INFO - Extracted rent market stats: {'studio': 1500.0, '3bed': 3700.0}
+2025-02-09 10:41:10,754 - INFO -     Inserted data for Quay 29
+2025-02-09 10:41:10,755 - INFO -   Processing development: Queensway Quay -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=79&off_plan=1&under_offer=1
+2025-02-09 10:41:14,535 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-queensway-quay-10933?p=0
+2025-02-09 10:41:18,728 - INFO - Extracted rent market stats: {'2bed': 3225.0, '3bed': 5000.0}
+2025-02-09 10:41:18,732 - INFO -     Inserted data for Queensway Quay
+2025-02-09 10:41:18,733 - WARNING - No 'Residential To Let' link found for Ragged Staff Wharf in Queensway.
+2025-02-09 10:41:18,733 - WARNING - No 'Residential To Let' link found for The Island in Queensway.
+2025-02-09 10:41:18,734 - WARNING - No 'Residential To Let' link found for The Sails in Queensway.
+2025-02-09 10:41:18,734 - WARNING - No 'Residential To Let' link found for Park View in Queensway.
+2025-02-09 10:41:18,734 - WARNING - No 'Residential To Let' link found for Quay 31 in Queensway.
+2025-02-09 10:41:18,735 - INFO - Processing district: Ocean Village (https://www.propertygibraltar.com/districts/ocean-village-gibraltar-6)
+2025-02-09 10:41:21,356 - INFO -   Processing development: Marina Bay -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=59&off_plan=1&under_offer=1
+2025-02-09 10:41:24,084 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-marina-bay-13427?p=0
+2025-02-09 10:41:28,353 - INFO - Extracted rent market stats: {'1bed': 1600.0, '2bed': 1900.0}
+2025-02-09 10:41:28,355 - INFO -     Inserted data for Marina Bay
+2025-02-09 10:41:28,356 - INFO -   Processing development: Marina Court -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=60&off_plan=1&under_offer=1
+2025-02-09 10:41:32,060 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-marina-court-13669?p=0
+2025-02-09 10:41:36,225 - INFO - Extracted rent market stats: {'3bed': 2250.0}
+2025-02-09 10:41:36,232 - INFO -     Inserted data for Marina Court
+2025-02-09 10:41:36,233 - WARNING - No 'Residential To Let' link found for Marina Views in Ocean Village.
+2025-02-09 10:41:36,236 - INFO -   Processing development: Ocean Village -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=72&off_plan=1&under_offer=1
+2025-02-09 10:41:39,453 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-ocean-village-10132?p=0
+2025-02-09 10:41:42,627 - INFO - Extracted rent market stats: {'1bed': 1350.0, '2bed': 3650.0, '3bed': 2950.0}
+2025-02-09 10:41:42,633 - INFO -     Inserted data for Ocean Village
+2025-02-09 10:41:42,637 - INFO -   Processing development: Portland House -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=76&off_plan=1&under_offer=1
+2025-02-09 10:41:45,832 - INFO -     Found property URL: https://www.propertygibraltar.com/property/duplex-portland-house-13199?p=0
+2025-02-09 10:41:49,134 - INFO - Extracted rent market stats: {'2bed': 2200.0, '3bed': 2550.0}
+2025-02-09 10:41:49,138 - INFO -     Inserted data for Portland House
+2025-02-09 10:41:49,138 - INFO -   Processing development: Tradewinds -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=102&off_plan=1&under_offer=1
+2025-02-09 10:41:51,902 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-tradewinds-13136?p=0
+2025-02-09 10:41:54,764 - INFO - Extracted rent market stats: {'1bed': 2017.0, '2bed': 2900.0, '3bed': 3500.0}
+2025-02-09 10:41:54,817 - INFO -     Inserted data for Tradewinds
+2025-02-09 10:41:54,818 - INFO -   Processing development: Watergardens -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=106&off_plan=1&under_offer=1
+2025-02-09 10:41:57,752 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-watergardens-13350?p=0
+2025-02-09 10:42:01,341 - INFO - Extracted rent market stats: {'1bed': 1317.0, '2bed': 1673.0}
+2025-02-09 10:42:01,346 - INFO -     Inserted data for Watergardens
+2025-02-09 10:42:01,346 - WARNING - No 'Residential To Let' link found for World Trade Center in Ocean Village.
+2025-02-09 10:42:01,347 - INFO -   Processing development: Royal Ocean Plaza -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=139&off_plan=1&under_offer=1
+2025-02-09 10:42:04,625 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-royal-ocean-plaza-13654?p=0
+2025-02-09 10:42:07,352 - INFO - Extracted rent market stats: {'1bed': 1950.0, '2bed': 2300.0, '3bed': 3080.0}
+2025-02-09 10:42:07,356 - INFO -     Inserted data for Royal Ocean Plaza
+2025-02-09 10:42:07,357 - INFO -   Processing development: Grand Ocean Plaza -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=140&off_plan=1&under_offer=1
+2025-02-09 10:42:10,414 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-grand-ocean-plaza-10686?b=339p=0
+2025-02-09 10:42:14,652 - INFO - Extracted rent market stats: {'2bed': 2475.0, '3bed': 2950.0}
+2025-02-09 10:42:14,656 - INFO -     Inserted data for Grand Ocean Plaza
+2025-02-09 10:42:14,657 - INFO -   Processing development: Majestic Ocean Plaza -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=141&off_plan=1&under_offer=1
+2025-02-09 10:42:17,828 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-majestic-ocean-plaza-12667?b=420p=0
+2025-02-09 10:42:20,945 - INFO - Extracted rent market stats: {'2bed': 2180.0}
+2025-02-09 10:42:20,949 - INFO -     Inserted data for Majestic Ocean Plaza
+2025-02-09 10:42:20,950 - INFO -   Processing development: Ocean Spa Plaza -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=142&off_plan=1&under_offer=1
+2025-02-09 10:42:23,538 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-ocean-spa-plaza-12807?p=0
+2025-02-09 10:42:27,131 - INFO - Extracted rent market stats: {'studio': 1400.0, '1bed': 1741.0, '2bed': 2610.0, '3bed': 6250.0}
+2025-02-09 10:42:27,135 - INFO -     Inserted data for Ocean Spa Plaza
+2025-02-09 10:42:27,136 - INFO -   Processing development: Imperial Ocean Plaza -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=143&off_plan=1&under_offer=1
+2025-02-09 10:42:31,028 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-imperial-ocean-plaza-13566?p=0
+2025-02-09 10:42:35,434 - INFO - Extracted rent market stats: {'studio': 1350.0, '1bed': 1800.0, '2bed': 3750.0}
+2025-02-09 10:42:35,436 - INFO -     Inserted data for Imperial Ocean Plaza
+2025-02-09 10:42:35,437 - WARNING - No 'Residential To Let' link found for Garden Mews in Ocean Village.
+2025-02-09 10:42:35,437 - WARNING - No 'Residential To Let' link found for Leisure Island Business Centre in Ocean Village.
+2025-02-09 10:42:35,438 - INFO -   Processing development: Marina Club -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=158&off_plan=1&under_offer=1
+2025-02-09 10:42:37,736 - INFO -     Found property URL: https://www.propertygibraltar.com/property/studio-marina-club-13629?p=0
+2025-02-09 10:42:41,021 - INFO - Extracted rent market stats: {'studio': 1450.0, '1bed': 2263.0, '2bed': 2425.0, '3bed': 4410.0}
+2025-02-09 10:42:41,025 - INFO -     Inserted data for Marina Club
+2025-02-09 10:42:41,026 - WARNING - No 'Residential To Let' link found for Bayside Central in Ocean Village.
+2025-02-09 10:42:41,026 - WARNING - No 'Residential To Let' link found for Glacis Road in Ocean Village.
+2025-02-09 10:42:41,026 - INFO - Processing district: Upper Town (https://www.propertygibraltar.com/districts/upper-town-gibraltar-7)
+2025-02-09 10:42:44,639 - INFO -   Processing development: Barley Hill House -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=10&off_plan=1&under_offer=1
+2025-02-09 10:42:47,184 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-barley-hill-house-13200?p=0
+2025-02-09 10:42:51,048 - INFO - Extracted rent market stats: {'3bed': 1800.0}
+2025-02-09 10:42:51,051 - INFO -     Inserted data for Barley Hill House
+2025-02-09 10:42:51,052 - WARNING - No 'Residential To Let' link found for Bourne Place in Upper Town.
+2025-02-09 10:42:51,052 - WARNING - No 'Residential To Let' link found for Prince Edward's Road in Upper Town.
+2025-02-09 10:42:51,053 - WARNING - No 'Residential To Let' link found for Tarik Views in Upper Town.
+2025-02-09 10:42:51,053 - INFO -   Processing development: The Arches -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=95&off_plan=1&under_offer=1
+2025-02-09 10:42:53,230 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-the-arches-13608?p=0
+2025-02-09 10:42:56,728 - INFO - Extracted rent market stats: {'2bed': 1650.0}
+2025-02-09 10:42:56,731 - INFO -     Inserted data for The Arches
+2025-02-09 10:42:56,732 - INFO -   Processing development: Upper Town -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=104&off_plan=1&under_offer=1
+2025-02-09 10:43:01,059 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-upper-town-13561?p=0
+2025-02-09 10:43:03,931 - INFO - Extracted rent market stats: {'1bed': 1150.0, '2bed': 1470.0}
+2025-02-09 10:43:03,936 - INFO -     Inserted data for Upper Town
+2025-02-09 10:43:03,936 - INFO -   Processing development: Arengos Gardens -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=119&off_plan=1&under_offer=1
+2025-02-09 10:43:07,426 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-arengos-gardens-11972?b=366p=1
+2025-02-09 10:43:11,050 - INFO - Extracted rent market stats: {'1bed': 1238.0, '2bed': 2313.0, '3bed': 3332.0}
+2025-02-09 10:43:11,054 - INFO -     Inserted data for Arengos Gardens
+2025-02-09 10:43:11,055 - WARNING - No 'Residential To Let' link found for Prince Edward's Gate in Upper Town.
+2025-02-09 10:43:11,055 - WARNING - No 'Residential To Let' link found for Sanderson Suites in Upper Town.
+2025-02-09 10:43:11,056 - INFO -   Processing development: Sylvian Suites -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=133&off_plan=1&under_offer=1
+2025-02-09 10:43:14,691 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-sylvian-suites-13201?p=0
+2025-02-09 10:43:18,255 - INFO - Extracted rent market stats: {'1bed': 1150.0}
+2025-02-09 10:43:18,258 - INFO -     Inserted data for Sylvian Suites
+2025-02-09 10:43:18,258 - WARNING - No 'Residential To Let' link found for The Quarters in Upper Town.
+2025-02-09 10:43:18,259 - WARNING - No 'Residential To Let' link found for Bado's Gardens in Upper Town.
+2025-02-09 10:43:18,259 - WARNING - No 'Residential To Let' link found for Libra in Upper Town.
+2025-02-09 10:43:18,260 - WARNING - No 'Residential To Let' link found for Green Lane in Upper Town.
+2025-02-09 10:43:18,260 - INFO - Scraping completed
+2025-02-13 22:17:24,111 - INFO - Processing district: Westside (https://www.propertygibraltar.com/districts/westside-gibraltar-1)
+2025-02-13 22:17:27,322 - INFO -   Processing development: Atlantic Suites -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=8&off_plan=1&under_offer=1
+2025-02-13 22:17:29,817 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-atlantic-suites-13529?p=0
+2025-02-13 22:17:33,245 - INFO - Extracted market stats: {'studio': 1111.0, '1bed': 1875.0, '2bed': 2850.0}
+2025-02-13 22:17:33,252 - INFO -     Inserted data for Atlantic Suites
+2025-02-13 22:17:33,253 - INFO -   Processing development: Europlaza -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=42&off_plan=1&under_offer=1
+2025-02-13 22:17:35,522 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-europlaza-12676?p=0
+2025-02-13 22:17:38,041 - INFO - Extracted market stats: {'2bed': 1500.0, '4bed': 4250.0}
+2025-02-13 22:17:38,044 - INFO -     Inserted data for Europlaza
+2025-02-13 22:17:38,045 - INFO -   Processing development: Eurotowers -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=43&off_plan=1&under_offer=1
+2025-02-13 22:17:41,958 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-eurotowers-13259?p=0
+2025-02-13 22:17:44,530 - INFO - Extracted market stats: {'1bed': 1319.0, '3bed': 1950.0}
+2025-02-13 22:17:44,537 - INFO -     Inserted data for Eurotowers
+2025-02-13 22:17:44,539 - WARNING - No 'Residential To Let' link found for Harbour Views in Westside.
+2025-02-13 22:17:44,540 - WARNING - No 'Residential To Let' link found for Montagu Crescent in Westside.
+2025-02-13 22:17:44,542 - WARNING - No 'Residential To Let' link found for Montagu Gardens in Westside.
+2025-02-13 22:17:44,543 - INFO -   Processing development: Peninsular Heights -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=74&off_plan=1&under_offer=1
+2025-02-13 22:17:47,001 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-peninsular-heights-13471?p=0
+2025-02-13 22:17:51,127 - INFO - Extracted market stats: {'3bed': 1750.0}
+2025-02-13 22:17:51,129 - INFO -     Inserted data for Peninsular Heights
+2025-02-13 22:17:51,130 - WARNING - No 'Residential To Let' link found for Sir William Jackson Grove in Westside.
+2025-02-13 22:17:51,130 - WARNING - No 'Residential To Let' link found for Waterport Place in Westside.
+2025-02-13 22:17:51,131 - WARNING - No 'Residential To Let' link found for Waterport Terraces in Westside.
+2025-02-13 22:17:51,131 - INFO -   Processing development: West One, Eurotowers -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=110&off_plan=1&under_offer=1
+2025-02-13 22:17:55,240 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-west-one-eurotowers-13327?p=0
+2025-02-13 22:17:58,524 - INFO - Extracted market stats: {'studio': 950.0, '2bed': 1850.0}
+2025-02-13 22:17:58,527 - INFO -     Inserted data for West One, Eurotowers
+2025-02-13 22:17:58,528 - INFO -   Processing development: West Side -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=111&off_plan=1&under_offer=1
+2025-02-13 22:18:02,637 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-west-side-9324?p=0
+2025-02-13 22:18:06,538 - INFO - Extracted market stats: {'studio': 975.0, '1bed': 1300.0, '3bed': 3150.0}
+2025-02-13 22:18:06,541 - INFO -     Inserted data for West Side
+2025-02-13 22:18:06,541 - WARNING - No 'Residential To Let' link found for Westview Park in Westside.
+2025-02-13 22:18:06,542 - WARNING - No 'Residential To Let' link found for EuroCity in Westside.
+2025-02-13 22:18:06,542 - WARNING - No 'Residential To Let' link found for Mons Calpe Mews in Westside.
+2025-02-13 22:18:06,543 - WARNING - No 'Residential To Let' link found for North Mole Road in Westside.
+2025-02-13 22:18:06,543 - INFO - Processing district: Eastside (https://www.propertygibraltar.com/districts/eastside-gibraltar-2)
+2025-02-13 22:18:08,977 - INFO -   Processing development: Both Worlds -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=13&off_plan=1&under_offer=1
+2025-02-13 22:18:12,604 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-both-worlds-12803?p=0
+2025-02-13 22:18:15,345 - INFO - Extracted market stats: {'studio': 204998.0, '1bed': 1150.0}
+2025-02-13 22:18:15,348 - INFO -     Inserted data for Both Worlds
+2025-02-13 22:18:15,349 - WARNING - No 'Residential To Let' link found for Carltree House in Eastside.
+2025-02-13 22:18:15,349 - INFO -   Processing development: Catalan Bay -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=22&off_plan=1&under_offer=1
+2025-02-13 22:18:18,088 - INFO -     Found property URL: https://www.propertygibraltar.com/property/maisonette-catalan-bay-10542?p=0
+2025-02-13 22:18:22,147 - INFO - Extracted market stats: {'3bed': 825000.0, '1bed': 2000.0}
+2025-02-13 22:18:22,149 - INFO -     Inserted data for Catalan Bay
+2025-02-13 22:18:22,149 - WARNING - No 'Residential To Let' link found for Catalan Gardens in Eastside.
+2025-02-13 22:18:22,150 - INFO -   Processing development: Clemence Suites -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=25&off_plan=1&under_offer=1
+2025-02-13 22:18:26,024 - INFO -     Found property URL: https://www.propertygibraltar.com/property/apartment-clemence-suites-13431?p=0
+2025-02-13 22:18:29,539 - INFO - Extracted market stats: {'1bed': 1600.0, '2bed': 2350.0}
+2025-02-13 22:18:29,542 - INFO -     Inserted data for Clemence Suites
+2025-02-13 22:18:29,542 - WARNING - No 'Residential To Let' link found for Devil's Tower Road in Eastside.
+2025-02-13 22:18:29,543 - INFO -   Processing development: East Side -> To Let URL: https://www.propertygibraltar.com/search?sale=0&category=1&location%5B0%5D=36&off_plan=1&under_offer=1
