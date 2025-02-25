@@ -62,24 +62,48 @@ def extract_market_stats(soup):
             logging.warning("No Market Stats div found")
             return stats
             
+        # Find the rental section marker
+        rent_marker = None
         for p in market_stats_div.find_all("p"):
-            text = p.get_text(strip=True).lower()
-            strong = p.find("strong", class_="text-site2")
-            if not strong:
-                continue
+            if "Average price to rent" in p.get_text(strip=True):
+                rent_marker = p
+                break
+        
+        if not rent_marker:
+            logging.warning("No rental prices section found")
+            return stats
 
-            price = extract_price(strong.text)
-            if "studio:" in text:
-                stats["studio"] = price
-            elif "1 beds" in text:
-                stats["1bed"] = price
-            elif "2 beds" in text:
-                stats["2bed"] = price
-            elif "3 beds" in text:
-                stats["3bed"] = price
-            elif "4 beds" in text:
-                stats["4bed"] = price
-        logging.info(f"Extracted market stats: {stats}")
+        # Only process paragraphs that come after the rent marker
+        current = rent_marker.next_sibling
+        while current:
+            if isinstance(current, str):
+                current = current.next_sibling
+                continue
+                
+            if current.name == 'p':
+                text = current.get_text(strip=True).lower()
+                strong = current.find("strong", class_="text-site2")
+                
+                if strong:
+                    price = extract_price(strong.text)
+                    if "studio:" in text:
+                        stats["studio"] = price
+                    elif "1 bed" in text:
+                        stats["1bed"] = price
+                    elif "2 bed" in text:
+                        stats["2bed"] = price
+                    elif "3 bed" in text:
+                        stats["3bed"] = price
+                    elif "4 bed" in text:
+                        stats["4bed"] = price
+            
+            # Stop if we hit a link or button that typically appears after the stats
+            if current.name == 'a':
+                break
+                
+            current = current.next_sibling
+            
+        logging.info(f"Extracted rental market stats: {stats}")
     except Exception as e:
         logging.error(f"Error extracting market stats: {e}")
     return stats
