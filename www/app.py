@@ -3,6 +3,10 @@ from flask_cors import CORS
 import psycopg2
 from psycopg2.extras import RealDictCursor
 import logging
+import os
+from dotenv import load_dotenv
+
+load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
 
 app = Flask(__name__)
 CORS(app)
@@ -10,9 +14,9 @@ CORS(app)
 def get_db_connection():
     return psycopg2.connect(
         host="localhost",
-        database="property_db",  # Changed from property_db
-        user="property",
-        password="P.32Jfp!d."
+        database=os.getenv('DB_DBNAME'),
+        user=os.getenv('DB_USERNAME'),
+        password=os.getenv('DB_PASSWORD')
     )
 
 @app.route('/', methods=['GET'])
