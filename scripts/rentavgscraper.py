@@ -8,6 +8,11 @@ from datetime import datetime
 import logging
 from urllib.parse import urljoin
 
+import os
+from dotenv import load_dotenv
+load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
+
+
 # Configure logging to output to console and a file
 logging.basicConfig(
     level=logging.INFO,
@@ -21,12 +26,11 @@ logging.basicConfig(
 # Database configuration
 DB_CONFIG = {
     'host': 'localhost',
-    'database': 'property_db',
-    'user': 'property',
-    'password': 'P.32Jfp!d.',
+    'database': os.getenv('DB_DBNAME'),
+    'user': os.getenv('DB_USERNAME'),
+    'password': os.getenv('DB_PASSWORD'),
     'port': '5432'
 }
-
 BASE_URL = "https://www.propertygibraltar.com"
 HEADERS = {
     "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "

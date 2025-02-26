@@ -6,6 +6,10 @@ import time
 import re
 from datetime import datetime
 
+import os
+from dotenv import load_dotenv
+load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
+
 def extract_web_id(url):
     main_url = url.split('?')[0]
     m = re.search(r'-([\d]+)$', main_url)
@@ -163,9 +167,9 @@ def scrape_rentals():
 
 def save_to_database(properties):
     conn = psycopg2.connect(
-        dbname="property_db",
-        user="property",       # Update these as needed.
-        password="P.32Jfp!d.",
+        dbname=os.getenv('DB_DBNAME'),
+        user=os.getenv('DB_USERNAME'),
+        password=os.getenv('DB_PASSWORD'),
         host="localhost"
     )
     cur = conn.cursor()
