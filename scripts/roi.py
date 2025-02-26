@@ -1,12 +1,16 @@
 import psycopg2
 from datetime import datetime
 
+import os
+from dotenv import load_dotenv
+load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
+
 DB_CONFIG = {
-    "dbname": "property_db",
-    "user": "property",
-    "password": "P.32Jfp!d.",
-    "host": "localhost",
-    "port": "5432"
+    'host': 'localhost',
+    'database': os.getenv('DB_DBNAME'),
+    'user': os.getenv('DB_USERNAME'),
+    'password': os.getenv('DB_PASSWORD'),
+    'port': '5432'
 }
 
 def get_connection():
