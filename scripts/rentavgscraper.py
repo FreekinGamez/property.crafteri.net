@@ -5,23 +5,11 @@ import time
 import random
 import re
 from datetime import datetime
-import logging
 from urllib.parse import urljoin
 
 import os
 from dotenv import load_dotenv
 load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
-
-
-# Configure logging to output to console and a file
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler('scraper.log'),
-        logging.StreamHandler()
-    ]
-)
 
 # Database configuration
 DB_CONFIG = {
@@ -46,7 +34,7 @@ def fetch_html(url, session):
         time.sleep(random.uniform(2, 4))  # Mimic human traffic
         return BeautifulSoup(response.text, 'html.parser')
     except Exception as e:
-        logging.error(f"Error fetching {url}: {e}")
+        print(f"Error fetching {url}: {e}")
         return None
 
 def extract_price(price_str):
@@ -54,7 +42,7 @@ def extract_price(price_str):
         clean_str = price_str.lower().replace('£', '').replace(',', '').strip()
         return float(clean_str)
     except Exception as e:
-        logging.error(f"Error parsing price '{price_str}': {e}")
+        print(f"Error parsing price '{price_str}': {e}")
         return None
 
 def extract_market_stats(soup):
@@ -63,7 +51,7 @@ def extract_market_stats(soup):
         # Look for the market-stats div
         market_stats_div = soup.find("div", class_="market-stats")
         if not market_stats_div:
-            logging.warning("No Market Stats div found")
+            print("No Market Stats div found")
             return stats
             
         # Find the rental section marker
@@ -74,7 +62,7 @@ def extract_market_stats(soup):
                 break
         
         if not rent_marker:
-            logging.warning("No rental prices section found")
+            print("No rental prices section found")
             return stats
 
         # Only process paragraphs that come after the rent marker
@@ -107,9 +95,9 @@ def extract_market_stats(soup):
                 
             current = current.next_sibling
             
-        logging.info(f"Extracted rental market stats: {stats}")
+        print(f"Extracted rental market stats: {stats}")
     except Exception as e:
-        logging.error(f"Error extracting market stats: {e}")
+        print(f"Error extracting market stats: {e}")
     return stats
 
 def scrape_properties():
@@ -119,7 +107,7 @@ def scrape_properties():
     try:
         conn = psycopg2.connect(**DB_CONFIG)
     except Exception as e:
-        logging.critical(f"Database connection error: {e}")
+        print(f"Database connection error: {e}")
         return
 
     cur = conn.cursor()
@@ -128,13 +116,13 @@ def scrape_properties():
     map_url = urljoin(BASE_URL, "/map")
     map_soup = fetch_html(map_url, session)
     if not map_soup:
-        logging.error("Failed to fetch the map page.")
+        print("Failed to fetch the map page.")
         return
 
     # Extract district links from the div with id "districts"
     districts_div = map_soup.find("div", id="districts")
     if not districts_div:
-        logging.error("No districts found on map page.")
+        print("No districts found on map page.")
         return
 
     district_links = []
@@ -147,7 +135,7 @@ def scrape_properties():
 
     # Process each district
     for district_name, district_url in district_links:
-        logging.info(f"Processing district: {district_name} ({district_url})")
+        print(f"Processing district: {district_name} ({district_url})")
         district_soup = fetch_html(district_url, session)
         if not district_soup:
             continue
@@ -155,7 +143,7 @@ def scrape_properties():
         # Developments are listed in <ul class="agents-list">
         agents_list = district_soup.find("ul", class_="agents-list")
         if not agents_list:
-            logging.warning(f"No developments found in {district_name}.")
+            print(f"No developments found in {district_name}.")
             continue
 
         for dev in agents_list.find_all("li"):
@@ -198,10 +186,10 @@ def scrape_properties():
                         break
 
             if not to_let_link:
-                logging.warning(f"No 'Residential To Let' link found for {development_name} in {district_name}.")
+                print(f"No 'Residential To Let' link found for {development_name} in {district_name}.")
                 continue
 
-            logging.info(f"  Processing development: {development_name} -> To Let URL: {to_let_link}")
+            print(f"  Processing development: {development_name} -> To Let URL: {to_let_link}")
 
             # Visit the To Let listings page
             let_soup = fetch_html(to_let_link, session)
@@ -211,16 +199,16 @@ def scrape_properties():
             # Select the first property listing (by looking for a "property-item" container)
             property_li = let_soup.select_one("ul.properties-list > li:first-child")
             if not property_li:
-                logging.warning(f"No property listing found for {development_name} in {district_name}.")
+                print(f"No property listing found for {development_name} in {district_name}.")
                 continue
 
             property_link_tag = property_li.find("a", href=True)
             if not property_link_tag or not property_link_tag.get("href"):
-                logging.warning(f"No property link found for {development_name} in {district_name}.")
+                print(f"No property link found for {development_name} in {district_name}.")
                 continue
 
             property_url = urljoin(BASE_URL, property_link_tag["href"])
-            logging.info(f"    Found property URL: {property_url}")
+            print(f"    Found property URL: {property_url}")
 
             # Fetch property details and extract market stats
             prop_soup = fetch_html(property_url, session)
@@ -253,15 +241,15 @@ def scrape_properties():
             try:
                 cur.execute(insert_query, data)
                 conn.commit()
-                logging.info(f"    Inserted data for {development_name}")
+                print(f"    Inserted data for {development_name}")
             except Exception as e:
                 conn.rollback()
-                logging.error(f"    Failed to insert data for {development_name}: {e}")
+                print(f"    Failed to insert data for {development_name}: {e}")
 
     cur.close()
     conn.close()
     session.close()
-    logging.info("Scraping completed")
+    print("Scraping completed")
 
 if __name__ == "__main__":
     scrape_properties()

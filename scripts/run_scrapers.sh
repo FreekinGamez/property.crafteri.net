@@ -4,3 +4,4 @@ python rentallscraper.py
 python salesscraper.py
 python rentavgscraper.py
 python roi.py
+deactivate
